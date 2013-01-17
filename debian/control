@@ -1,15 +1,14 @@
 Source: ubuntukylin-default-settings
-Section: unknown
-Priority: extra
-Maintainer: penghuan <penghuan@penghuan-OptiPlex-380>
+Section: x11
+Priority: optional
+Maintainer: Huan Peng <penghuanmail@126.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/ubuntukylin-default-settings.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/ubuntukylin-default-settings.git;a=summary
+Homepage: https://launchpad.net/ubuntukylin-default-settings
+XS-Vcs-Bzr: https://code.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/ubuntukylin-default-settings
 
 Package: ubuntukylin-default-settings
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: default settings and artwork for UbuntuKylin version
+ This package contains the default settings used by UbuntuKylin desktop.
