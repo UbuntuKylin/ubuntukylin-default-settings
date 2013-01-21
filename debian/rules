@@ -1,13 +1,20 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
-# Sample debian/rules that uses debhelper.
-# This file was originally written by Joey Hess and Craig Small.
-# As a special exception, when this file is copied by dh-make into a
-# dh-make output file, you may use that output file without restriction.
-# This special exception was added by Craig Small in version 0.37 of dh-make.
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+
+
+
+SHELL := sh -e
+
 
 %:
-	dh $@ 
+	dh ${@} --with autotools_dev
+
+override_dh_auto_install:
+	mkdir -p debian/ubuntukylin-default-settings/var/lib/gconf/
+	mkdir -p debian/ubuntukylin-default-settings/etc/skel
+	install -D -m 0755 kylin.path debian/ubuntukylin-default-settings/tmp/kylin.path
+	install -D -m 0755 org.gnome.nautilus.gschema.xml debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml.old
+	install -D -m 0755 10_nautilus.gschema debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/10_nautilus.gschema
+	install -D -m 0755 %gconf-tree.xml debian/ubuntukylin-default-settings/tmp/%gconf-tree.xml
+	cp -raf kylin debian/ubuntukylin-default-settings/var/lib/gconf/
+	cp -raf 桌面 debian/ubuntukylin-default-settings/etc/skel

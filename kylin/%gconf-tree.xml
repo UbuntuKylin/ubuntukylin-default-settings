@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="apps">
+		<dir name="nautilus">
+			<dir name="preferences">
+				<entry name="navigation_window_saved_maximized" mtime="1348456500" type="bool" value="false"/>
+				<entry name="navigation_window_saved_geometry" mtime="1348456500" type="string">
+					<stringvalue>800x550+724+243</stringvalue>
+				</entry>
+				<entry name="start_with_sidebar" mtime="1348532816" type="bool" value="true"/>
+			</dir>
+			<dir name="desktop">
+				<entry name="trash_icon_visible" mtime="1348709043" type="bool" value="true"/>
+        			<entry name="trash_icon_name" mtime="1348709041" type="string">
+               				 <stringvalue>回收站</stringvalue>
+       			         </entry>
+       				 <entry name="home_icon_visible" mtime="1348709026" type="bool" value="true"/>
+       				 <entry name="home_icon_name" mtime="1348709025" type="string">
+               				 <stringvalue>我的文档</stringvalue>
+       				 </entry>
+       				 <entry name="computer_icon_visible" mtime="1348709015" type="bool" value="true"/>
+       				 <entry name="computer_icon_name" mtime="1348709012" type="string">
+               				 <stringvalue>我的电脑</stringvalue>
+       				 </entry>
+			</dir>
+		</dir>
+		<dir name="metacity">
+			<dir name="window_keybindings">
+				<entry name="move_to_workspace_up" mtime="1347618160" type="string">
+					<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Up</stringvalue>
+				</entry>
+				<entry name="move_to_workspace_right" mtime="1347618160" type="string">
+					<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Right</stringvalue>
+				</entry>
+				<entry name="move_to_workspace_left" mtime="1347618160" type="string">
+					<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Left</stringvalue>
+				</entry>
+				<entry name="move_to_workspace_down" mtime="1347618160" type="string">
+					<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Down</stringvalue>
+				</entry>
+				<entry name="unmaximize" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Super&gt;Down</stringvalue>
+				</entry>
+				<entry name="toggle_shaded" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;s</stringvalue>
+				</entry>
+				<entry name="toggle_maximized" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;KP_5</stringvalue>
+				</entry>
+				<entry name="minimize" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;KP_0</stringvalue>
+				</entry>
+				<entry name="maximize" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Super&gt;Up</stringvalue>
+				</entry>
+			</dir>
+			<dir name="keybinding_commands">
+				<entry name="command_1" mtime="1347865334" type="string">
+					<stringvalue>nautilus</stringvalue>
+				</entry>
+			</dir>
+			<dir name="global_keybindings">
+				<entry name="run_command_1" mtime="1347865325" type="string">
+					<stringvalue>&lt;Super&gt;e</stringvalue>
+				</entry>
+				<entry name="switch_to_workspace_up" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Up</stringvalue>
+				</entry>
+				<entry name="switch_to_workspace_right" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Right</stringvalue>
+				</entry>
+				<entry name="switch_to_workspace_left" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Left</stringvalue>
+				</entry>
+				<entry name="switch_to_workspace_down" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;Down</stringvalue>
+				</entry>
+				<entry name="panel_run_dialog" mtime="1347618160" type="string">
+					<stringvalue>disabled</stringvalue>
+				</entry>
+				<entry name="run_command_terminal" mtime="1347618160" type="string">
+					<stringvalue>&lt;Control&gt;&lt;Primary&gt;&lt;Alt&gt;T</stringvalue>
+				</entry>
+				<entry name="panel_main_menu" mtime="1347618160" type="string">
+					<stringvalue>disabled</stringvalue>
+				</entry>
+				<entry name="show_desktop" mtime="1347864322" type="string">
+					<stringvalue>&lt;Super&gt;d</stringvalue>
+				</entry>
+			</dir>
+			<dir name="general">
+				<entry name="button_layout" mtime="1347864499" type="string">
+					<stringvalue>menu:minimize,maximize,close</stringvalue>
+				</entry>
+				<entry name="visual_bell_type" mtime="1347618160" type="string">
+					<stringvalue>frame_flash</stringvalue>
+				</entry>
+				<entry name="auto_raise_delay" mtime="1347618160" type="int" value="1000"/>
+				<entry name="auto_raise" mtime="1347618160" type="bool" value="true"/>
+			</dir>
+		</dir>
+		<dir name="file-roller">
+			<dir name="ui">
+				<entry name="sidebar_width" mtime="1348018272" type="int" value="200"/>
+				<entry name="window_height" mtime="1348018272" type="int" value="480"/>
+				<entry name="window_width" mtime="1348018271" type="int" value="600"/>
+			</dir>
+			<dir name="listing">
+				<entry name="name_column_width" mtime="1348018272" type="int" value="250"/>
+				<entry name="list_mode" mtime="1348196456" type="string">
+					<stringvalue>as-folder</stringvalue>
+				</entry>
+				<entry name="sort_type" mtime="1348196456" type="string">
+					<stringvalue>ascending</stringvalue>
+				</entry>
+				<entry name="sort_method" mtime="1348196456" type="string">
+					<stringvalue>name</stringvalue>
+				</entry>
+				<entry name="show_path" mtime="1348196454" type="bool" value="false"/>
+			</dir>
+			<dir name="general">
+				<entry name="encrypt_header" mtime="1348196456" type="bool" value="false"/>
+			</dir>
+			<dir name="dialogs">
+				<dir name="batch-add">
+					<entry name="default_extension" mtime="1348196456" type="string">
+						<stringvalue>.tar.gz</stringvalue>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="compiz-1">
+			<dir name="plugins">
+				<dir name="unityshell">
+					<dir name="screen0">
+						<dir name="options">
+							<entry name="panel_opacity" mtime="1347950009" type="float" value="0.5"/>
+							<entry name="alt_tab_detail_stop" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_detail_start" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_left" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_right" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_prev_all" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_forward_all" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_prev" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="alt_tab_forward" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="launcher_switcher_prev" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="launcher_switcher_forward" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="panel_first_menu" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="keyboard_focus" mtime="1347950009" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="launcher_hide_mode" mtime="1347950009" type="int" value="1"/>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="switcher">
+					<dir name="screen0">
+						<dir name="options">
+							<entry name="prev_all_key" mtime="1347947248" type="string">
+								<stringvalue>&lt;Shift&gt;&lt;Alt&gt;Tab</stringvalue>
+							</entry>
+							<entry name="next_all_key" mtime="1347947248" type="string">
+								<stringvalue>&lt;Alt&gt;Tab</stringvalue>
+							</entry>
+							<entry name="prev_key" mtime="1347947248" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="next_key" mtime="1347947248" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="shift">
+					<dir name="screen0">
+						<dir name="options">
+							<entry name="next_all_key" mtime="1347947465" type="string">
+								<stringvalue>&lt;Control&gt;&lt;Primary&gt;Tab</stringvalue>
+							</entry>
+							<entry name="flip_rotation" mtime="1347864719" type="int" value="35"/>
+							<entry name="prev_all_key" mtime="1348478147" type="string">
+								<stringvalue>&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;v</stringvalue>
+							</entry>
+							<entry name="prev_key" mtime="1347864665" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="next_key" mtime="1347864662" type="string">
+								<stringvalue>Disabled</stringvalue>
+							</entry>
+							<entry name="mode" mtime="1347864653" type="int" value="1"/>
+						</dir>
+					</dir>
+				</dir>
+				<dir name="cube">
+					<dir name="screen0">
+						<dir name="options">
+							<entry name="active_opacity" mtime="1347865061" type="float" value="30"/>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="general">
+				<dir name="screen0">
+					<dir name="options">
+						<entry name="vsize" mtime="1347957980" type="int" value="1"/>
+						<entry name="hsize" mtime="1347957981" type="int" value="4"/>
+						<entry name="active_plugins" mtime="1347957947" type="list" ltype="string">
+							<li type="string">
+								<stringvalue>core</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>composite</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>opengl</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>compiztoolbox</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>decor</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>snap</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>gnomecompat</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>widget</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>imgpng</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>dbus</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>place</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>commands</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>grid</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>session</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>mousepoll</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>shift</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>regex</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>move</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>vpswitch</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>resize</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>animation</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>fade</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>workarounds</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>cube</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>rotate</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>unitymtgrabhandles</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>cubeaddon</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>scale</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>expo</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>td</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>ezoom</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>switcher</stringvalue>
+							</li>
+							<li type="string">
+								<stringvalue>unityshell</stringvalue>
+							</li>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

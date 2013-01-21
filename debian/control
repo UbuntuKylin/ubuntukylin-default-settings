@@ -1,14 +1,13 @@
 Source: ubuntukylin-default-settings
 Section: x11
-Priority: optional
-Maintainer: Huan Peng <penghuanmail@126.com>
-Build-Depends: debhelper (>= 8.0.0)
+Priority: extra
+Maintainer: testpi <pishuilu1128@126.com>
+Build-Depends: debhelper (>= 8.0.0),autotools-dev
 Standards-Version: 3.9.2
-Homepage: https://launchpad.net/ubuntukylin-default-settings
-XS-Vcs-Bzr: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/ubuntukylin-default-settings
+#Vcs-Git: git://git.debian.org/collab-maint/ubuntukylin-default-settings.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ubuntukylin-default-settings.git;a=summary
 
 Package: ubuntukylin-default-settings
-Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: default settings and artwork for UbuntuKylin version
- This package contains the default settings used by UbuntuKylin desktop.
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2, gconf2-common, nautilus-data, libglib2.0-0, unity, compiz-plugins-default, compiz-plugins-main-default, libcompizconfig0, compiz-core, gnome-keyring, x11-common, compiz-plugins-extra, compizconfig-settings-manager
+Description: 定制ubuntukylin桌面
