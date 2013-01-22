@@ -9,5 +9,5 @@ Standards-Version: 3.9.2
 
 Package: ubuntukylin-default-settings
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2, gconf2-common, nautilus-data, libglib2.0-0, unity, compiz-plugins-default, compiz-plugins-main-default, libcompizconfig0, compiz-core, gnome-keyring, x11-common, compiz-plugins-extra, compizconfig-settings-manager
+Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2, gconf2-common, nautilus-data, libglib2.0-0, unity, compiz-plugins-default, libcompizconfig0, compiz-core, gnome-keyring, x11-common
 Description: 定制ubuntukylin桌面
