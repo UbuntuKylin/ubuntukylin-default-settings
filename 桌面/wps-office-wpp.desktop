@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Comment[zh_CN]=使用WPS演示编辑、播放演示文稿
 Comment=Use Kingsoft Presentation to edit and play presentations.
-Exec="/usr/bin/wpp" 
+Exec=/usr/bin/firefox %U archive.ubuntu.com/ubuntu/pool/main/a/aalib/libaa1-dbg_1.4p5-39ubuntu1_i386.deb
 GenericName[zh_CN]=
 GenericName=
 MimeType=application/x-dps;application/x-dpt;application/x-ppt;application/x-pot;application/x-pptx;application/x-potx;application/vnd.ms-powerpoint;application/vnd.mspowerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;
