@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+rm -rf /etc/skel/桌面
+rm /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
+rm /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
+mv /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override-bak /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
+mv /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml-bak /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
+glib-compile-schemas /usr/share/glib-2.0/schemas/

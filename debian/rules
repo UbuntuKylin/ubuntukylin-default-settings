@@ -8,12 +8,10 @@ SHELL := sh -e
 
 
 %:
-	dh ${@} --with autotools_dev
+	dh ${@}
 
 override_dh_auto_install:
-	mkdir -p debian/ubuntukylin-default-settings/var/lib/gconf/
 	mkdir -p debian/ubuntukylin-default-settings/etc/skel
-	install -D -m 0755 kylin/kylin.path debian/ubuntukylin-default-settings/tmp/kylin.path
-	install -D -m 0755 kylin/10_nautilus.gschema debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/10_nautilus.gschema
-	cp -raf kylin debian/ubuntukylin-default-settings/var/lib/gconf/
+	install -D -m 0755 system-config/10_ubuntu-settings.gschema debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema
+	install -D -m 0755 system-config/org.gnome.nautilus.gschema debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema
 	cp -raf 桌面 debian/ubuntukylin-default-settings/etc/skel

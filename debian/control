@@ -2,12 +2,12 @@ Source: ubuntukylin-default-settings
 Section: x11
 Priority: extra
 Maintainer: testpi <pishuilu1128@126.com>
-Build-Depends: debhelper (>= 8.0.0),autotools-dev
+Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.2
 #Vcs-Git: git://git.debian.org/collab-maint/ubuntukylin-default-settings.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/ubuntukylin-default-settings.git;a=summary
 
 Package: ubuntukylin-default-settings
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2, gconf2-common, nautilus-data, libglib2.0-0, unity, compiz-plugins-default, libcompizconfig0, compiz-core, gnome-keyring, x11-common
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: 定制ubuntukylin桌面
