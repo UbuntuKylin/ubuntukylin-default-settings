@@ -1,5 +1,5 @@
-ubuntukylin-default-settings (1.0.0) raring; urgency=low
+ubuntukylin-default-settings (0.1) UNRELEASED; urgency=low
 
-  * Initial release
+  * Initial release.
 
- -- testpi <pishuilu1128@126.com>  Fri, 18 Jan 2013 17:22:27 +0800
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 23 Jan 2013 16:13:16 +0100
