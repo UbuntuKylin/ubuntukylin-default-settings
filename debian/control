@@ -1,9 +1,21 @@
 Source: ubuntukylin-default-settings
+<<<<<<< TREE
+=======
+Section: metapackages
+>>>>>>> MERGE-SOURCE
 Priority: optional
+<<<<<<< TREE
 Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
+=======
+Maintainer: testpi <pishuilu1128@126.com>
+>>>>>>> MERGE-SOURCE
 Build-Depends: debhelper (>= 7.0.50~),
  ubuntu-defaults-builder
+<<<<<<< TREE
 Standards-Version: 3.9.4
+=======
+Standards-Version: 3.9.3
+>>>>>>> MERGE-SOURCE
 
 Package: ubuntukylin-default-settings
 Architecture: all

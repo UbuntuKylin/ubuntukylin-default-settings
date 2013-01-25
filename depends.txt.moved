@@ -12,25 +12,23 @@
 #
 # Format: arbitrarily many lines, one package name per line
 #
-# Example:
-# manpages-de
 
 # local services
 gwibber-service-sina
 gwibber-service-sohu
-unity-china-music-scope
+#unity-china-music-scope
 
 # subset of complete language support:
-cmap-adobe-gb1
-fonts-arphic-uming
-firefox-locale-zh-hans
-thunderbird-locale-zh-hans
-thunderbird-locale-zh-cn
-ibus-googlepinyin
-ibus-table-wubi
-ttf-wqy-zenhei
-ttf-arphic-ukai
+#cmap-adobe-gb1
+#fonts-arphic-uming
+#firefox-locale-zh-hans
+#thunderbird-locale-zh-hans
+#thunderbird-locale-zh-cn
+#ibus-googlepinyin
+#ibus-table-wubi
+#ttf-wqy-zenhei
+#ttf-arphic-ukai
 
 #default apps
-cheese
-smplayer
+#cheese
+#smplayer

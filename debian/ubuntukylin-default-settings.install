@@ -1,1 +1,4 @@
-debian/30_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
+debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
+debian/20_ubuntukylin-default-settings.gschema.xml usr/share/glib-2.0/schemas
+
+desktop/*.desktop etc/skel/桌面

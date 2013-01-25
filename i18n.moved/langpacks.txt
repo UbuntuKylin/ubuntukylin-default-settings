@@ -9,9 +9,6 @@
 # input methods, dictionaries etc. will be installed in addition; otherwise
 # only the language packs with the translations will be installed. Note that
 # complete language support takes a lot of CD space.
-#
-# Example:
-# de complete
-# es
+
 en
 zh-hans

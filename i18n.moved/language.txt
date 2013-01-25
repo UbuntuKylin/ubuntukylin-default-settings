@@ -6,6 +6,4 @@
 # which have two major codes like zh_CN or zh_TW). See /isolinux/langlist on a
 # Ubuntu live CD for the complete list.
 #
-# Example:
-# de
 zh_CN

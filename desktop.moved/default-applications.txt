@@ -12,7 +12,6 @@
 # application/ogg banshee
 # x-scheme-handler/mailto thunderbird
 # x-foo/bar toto
-
 application/vnd.rn-realmedia smplayer
 application/x-extension-m4a smplayer
 application/x-extension-mp4 smplayer
