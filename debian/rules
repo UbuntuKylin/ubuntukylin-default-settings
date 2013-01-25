@@ -1,17 +1,8 @@
 #!/usr/bin/make -f
 
-
-
-
-SHELL := sh -e
-
-
-
 %:
-	dh ${@}
+	dh "$@"
 
-override_dh_auto_install:
-	mkdir -p debian/ubuntukylin-default-settings/etc/skel
-	install -D -m 0755 system-config/10_ubuntu-settings.gschema debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema
-	install -D -m 0755 system-config/org.gnome.nautilus.gschema debian/ubuntukylin-default-settings/usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema
-	cp -raf 桌面 debian/ubuntukylin-default-settings/etc/skel
+override_dh_install:
+	dh_install
+	dh_ubuntu_defaults

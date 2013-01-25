@@ -1,11 +1,5 @@
-ubuntukylin-default-settings (1.0.1) raring; urgency=low
+ubuntukylin-default-settings (0.1) UNRELEASED; urgency=low
 
-  * Changing the configuration file standardization
+  * Initial release.
 
- -- testpi <pishuilu1128@126.com>  Wed, 23 Jan 2013 10:54:02 +0800
-
-ubuntukylin-default-settings (1.0.0) raring; urgency=low
-
-  * Initial release
-
- -- testpi <pishuilu1128@126.com>  Fri, 18 Jan 2013 17:22:27 +0800
+ -- testpi <pishuilu1128@126.com>  Thu, 24 Jan 2013 14:34:06 +0800

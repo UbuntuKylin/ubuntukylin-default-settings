@@ -1,13 +1,18 @@
 Source: ubuntukylin-default-settings
-Section: x11
-Priority: extra
+Section: metapackages
+Priority: optional
 Maintainer: testpi <pishuilu1128@126.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.2
-#Vcs-Git: git://git.debian.org/collab-maint/ubuntukylin-default-settings.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/ubuntukylin-default-settings.git;a=summary
+Build-Depends: debhelper (>= 7.0.50~),
+ ubuntu-defaults-builder
+Standards-Version: 3.9.3
 
 Package: ubuntukylin-default-settings
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: 定制ubuntukylin桌面
+Architecture: all
+Depends: ${misc:Depends},
+ ${ubuntudefaults:Depends}
+Recommends: ${ubuntudefaults:Recommends}
+Provides: ubuntu-default-settings
+Conflicts: ubuntu-default-settings
+Description: Default settings for Ubuntu customizations
+ This package contains customized default settings.
+
