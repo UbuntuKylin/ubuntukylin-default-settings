@@ -1,2 +1,0 @@
-ubuntudefaults:Depends=gwibber-service-sina, gwibber-service-sohu
-misc:Depends=dconf-gsettings-backend | gsettings-backend

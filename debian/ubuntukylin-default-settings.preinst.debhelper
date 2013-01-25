@@ -1,5 +1,0 @@
-# Automatically added by dh_ubuntu_defaults
-if [ "$1" = install -o "$1" = upgrade ]; then
-    dpkg-divert --package ubuntukylin-default-settings --rename --divert /usr/share/applications/defaults.list.ubuntu-defaults --add /usr/share/applications/defaults.list
-fi
-# End automatically added section
