@@ -34,3 +34,4 @@ ttf-arphic-ukai
 #default apps
 cheese
 smplayer
+ubuntukylin-theme
