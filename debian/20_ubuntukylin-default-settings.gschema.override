@@ -3,4 +3,12 @@ home-icon-visible=true
 trash-icon-visible=true
 volumes-visible=true
 
+[org.gnome.desktop.interface]
+gtk-theme="kylin-theme"
+icon-theme="kylin-icon-theme"
 
+[org.gnome.desktop.wm.preferences]
+theme="kylin-theme"
+
+[com.canonical.unity-greeter]
+background="/usr/share/backgrounds/ubuntukylin.png"
