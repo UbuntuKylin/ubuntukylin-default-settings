@@ -11,4 +11,4 @@ icon-theme="kylin-icon-theme"
 theme="kylin-theme"
 
 [com.canonical.unity-greeter]
-background="/usr/share/backgrounds/ubuntukylin.png"
+background="/usr/share/backgrounds/ubuntukylin-default-settings.jpg"

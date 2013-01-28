@@ -7,3 +7,4 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 apt-get purge --auto-remove -y totem
+cp /usr/share/applications/firefox.desktop /etc/skel/桌面/

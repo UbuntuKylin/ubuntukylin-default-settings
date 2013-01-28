@@ -1,3 +1,15 @@
+ubuntukylin-default-settings (1.0.6) raring; urgency=low
+
+  * add firefox.desktop to desktop
+
+ -- testpi <pishuilu1128@126.com>  Mon, 28 Jan 2013 17:15:03 +0800
+
+ubuntukylin-default-settings (1.0.5) raring; urgency=low
+
+  * fix unity-greeter background name 
+
+ -- zhangchao (work) <zctgbhu@163.com>  Mon, 28 Jan 2013 14:46:47 +0800
+
 ubuntukylin-default-settings (1.0.4) raring; urgency=low
 
   * add ubuntukylin-theme in depends.txt 
