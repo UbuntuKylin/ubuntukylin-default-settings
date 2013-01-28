@@ -1,4 +1,16 @@
-ubuntukylin-default-settings (0.1) UNRELEASED; urgency=low
+ubuntukylin-default-settings (1.0.3) precise; urgency=low
+
+  *  resolve gpg key problem.
+
+ -- Huan Peng (penghuanmail) <penghuanmail@126.com>  Mon, 28 Jan 2013 10:38:45 +0800
+
+ubuntukylin-default-settings (1.0.2) raring; urgency=low
+
+  * add support for ubuntukylin-theme.
+
+ -- Huan Peng (penghuanmail) <penghuanmail@126.com>  Mon, 28 Jan 2013 10:27:52 +0800
+
+ubuntukylin-default-settings (1.0.1) raring; urgency=low
 
   * Initial release.
 
