@@ -26,7 +26,13 @@ fonts-arphic-uming
 firefox-locale-zh-hans
 thunderbird-locale-zh-hans
 thunderbird-locale-zh-cn
+<<<<<<< TREE
 #ibus-googlepinyin
+=======
+libreoffice-help-zh-cn
+libreoffice-l10n-zh-cn
+ibus-googlepinyin
+>>>>>>> MERGE-SOURCE
 ibus-table-wubi
 ttf-wqy-zenhei
 ttf-arphic-ukai
@@ -36,3 +42,7 @@ ttf-arphic-ukai
 #smplayer
 ubuntukylin-theme
 chinese-calendar
+<<<<<<< TREE
+=======
+gnome-tweak-tool 
+>>>>>>> MERGE-SOURCE
