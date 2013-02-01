@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Comment[zh_CN]=使用WPS演示编辑、播放演示文稿
 Comment=Use Kingsoft Presentation to edit and play presentations.
-Exec="/usr/bin/wpp" 
+Exec=/usr/bin/firefox %U http://wdl.cache.ijinshan.com/wps/download/Linux/unstable/wps-office_8.1.0.3703~b1_i386.deb 
 GenericName[zh_CN]=
 GenericName=
 MimeType=application/x-dps;application/x-dpt;application/x-ppt;application/x-pot;application/x-pptx;application/x-potx;application/vnd.ms-powerpoint;application/vnd.mspowerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.template;

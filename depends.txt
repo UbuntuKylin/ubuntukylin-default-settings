@@ -26,6 +26,8 @@ fonts-arphic-uming
 firefox-locale-zh-hans
 thunderbird-locale-zh-hans
 thunderbird-locale-zh-cn
+libreoffice-help-zh-cn
+libreoffice-l10n-zh-cn
 ibus-googlepinyin
 ibus-table-wubi
 ttf-wqy-zenhei
@@ -35,3 +37,5 @@ ttf-arphic-ukai
 cheese
 smplayer
 ubuntukylin-theme
+chinese-calendar
+gnome-tweak-tool 
