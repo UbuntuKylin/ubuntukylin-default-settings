@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Comment[zh_CN]=使用WPS表格分析、管理数据
 Comment=Use Kingsoft Spreadsheets to analyze manage data.
-Exec=/usr/bin/firefox %U archive.ubuntu.com/ubuntu/pool/main/a/aalib/libaa1-dbg_1.4p5-39ubuntu1_i386.deb
+Exec=/usr/bin/xdg-open http://wdl.cache.ijinshan.com/wps/download/Linux/unstable/wps-office_8.1.0.3703~b1_i386.deb
 GenericName[zh_CN]=
 GenericName=
 MimeType=application/x-et;application/x-ett;application/x-xls;application/x-xlt;application/x-xlsx;application/x-xltx;application/vnd.ms-excel;application/msexcel;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.spreadsheetml.template;
