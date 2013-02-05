@@ -3,6 +3,11 @@ home-icon-visible=true
 trash-icon-visible=true
 volumes-visible=true
 
+[org.gnome.desktop.wm.preferences]
+button-layout=':minimize,maximize,close'
+mouse-button-modifier='<Alt>'
+titlebar-font='Ubuntu Bold 11'
+
 [org.gnome.desktop.interface]
 gtk-theme="kylin-theme"
 icon-theme="kylin-icon-theme"
