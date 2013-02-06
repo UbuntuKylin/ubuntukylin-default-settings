@@ -1,10 +1,12 @@
 Source: ubuntukylin-default-settings
 Section: metapackages
 Priority: optional
-Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
+Maintainer: UbuntuKylin Team <ubuntukylin-members@lists.launchpad.net>
 Build-Depends: debhelper (>= 7.0.50~),
  ubuntu-defaults-builder
 Standards-Version: 3.9.3
+Vcs-Bzr: https://code.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
+Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 
 Package: ubuntukylin-default-settings
 Architecture: all
@@ -13,6 +15,6 @@ Depends: ${misc:Depends},
 Recommends: ${ubuntudefaults:Recommends}
 Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings
-Description: Default settings for Ubuntu customizations
- This package contains customized default settings.
+Description: Default settings for the Ubuntukylin desktop
+ This package contains the default settings used by ubuntukylin. 
 
