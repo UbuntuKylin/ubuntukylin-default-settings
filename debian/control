@@ -15,6 +15,8 @@ Depends: ${misc:Depends},
 Recommends: ${ubuntudefaults:Recommends}
 Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings
-Description: Default settings for the Ubuntukylin desktop
- This package contains the default settings used by ubuntukylin. 
+Description: Default settings for the UbuntuKylin desktop
+ This package contains the default settings used by UbuntuKylin. It contains customized default settings for the Chinese Ubuntu
+ Edition.
+
 
