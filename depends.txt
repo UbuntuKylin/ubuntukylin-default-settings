@@ -34,12 +34,12 @@ ttf-wqy-zenhei
 ttf-arphic-ukai
 
 #default apps
-#cheese
-#smplayer
+cheese
+smplayer
 ubuntukylin-theme
 chinese-calendar
-#indicator-china-weather
-#gnome-tweak-tool
-#fcitx
-#fcitx-googlepinyin
-#fcitx-sunpinyin 
+indicator-china-weather
+gnome-tweak-tool
+fcitx
+fcitx-googlepinyin
+fcitx-sunpinyin 
