@@ -1,4 +1,4 @@
 debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
 
-debian/gnome-tweak-tool.desktop /usr/share/applications
+debian/theme-tool.desktop /usr/share/applications
 

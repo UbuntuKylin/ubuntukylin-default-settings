@@ -4,8 +4,8 @@ trash-icon-visible=true
 volumes-visible=true
 
 [org.gnome.nautilus.desktop]
-home-icon-visible='我的文档'
-trash-icon-visible='回收站'
+home-icon-name='我的文档'
+trash-icon-name='回收站'
 
 [org.gnome.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'

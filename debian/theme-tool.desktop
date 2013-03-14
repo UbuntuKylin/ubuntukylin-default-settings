@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=主题设置
 Comment=Tweak advanced GNOME 3 settings
-Icon=preferences-system
+Icon=gnome-tweak-tool
 Exec=gnome-tweak-tool
 Terminal=false
 Type=Application
@@ -9,3 +9,4 @@ StartupNotify=true
 Categories=GNOME;GTK;Accessibility;Utility;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;
 OnlyShowIn=GNOME;Unity;
 X-GNOME-Settings-Panel=gnome-tweak-tool
+Name[zh_CN]=主题设置
