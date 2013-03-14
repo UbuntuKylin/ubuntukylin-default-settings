@@ -41,5 +41,7 @@ chinese-calendar
 indicator-china-weather
 gnome-tweak-tool
 fcitx
+fcitx-pinyin
+fcitx-table-all
 fcitx-googlepinyin
 fcitx-sunpinyin 

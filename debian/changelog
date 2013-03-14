@@ -1,6 +1,11 @@
 ubuntukylin-default-settings (1.0.2) raring; urgency=low
 
-  * add slideshow 
+  * add slideshow
+  * add gnome-tweak-tool icon
+  * del wps*.desktop
+  * modify the configuration file
+  * pre-installed applications:indicator-china-weather,fctix 
+  * remove ibus
 
  -- ShuiLu Pi (pishuilu1128) <pishuilu1128@126.com>  Thu, 14 Mar 2013 16:30:42 +0800
 
