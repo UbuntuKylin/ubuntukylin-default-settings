@@ -9,4 +9,5 @@ set -e
 
 apt-get purge --auto-remove -y ibus 
 apt-get purge --auto-remove -y totem 
+mkdir -p /etc/skel/桌面
 cp /usr/share/applications/firefox.desktop /etc/skel/桌面/
