@@ -1,3 +1,10 @@
+ubuntukylin-default-settings (1.0.2ubuntu1) raring; urgency=low
+
+  * updated slideshow.
+  * fixed issue with purge ibus completely. (LP: #1160374)
+
+ -- Zhengpeng Hou <zhengpeng-hou@ubuntu.com>  Tue, 26 Mar 2013 23:27:40 +0800
+
 ubuntukylin-default-settings (1.0.2) raring; urgency=low
 
   * add slideshow
