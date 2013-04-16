@@ -7,11 +7,6 @@ volumes-visible=true
 home-icon-name='我的文档'
 trash-icon-name='回收站'
 
-[org.gnome.desktop.wm.preferences]
-button-layout=':minimize,maximize,close'
-mouse-button-modifier='<Alt>'
-titlebar-font='Ubuntu Bold 11'
-
 [org.gnome.desktop.interface]
 gtk-theme="ubuntukylin-theme"
 icon-theme="ubuntukylin-icon-theme"
@@ -21,3 +16,6 @@ theme="ubuntukylin-theme"
 
 [com.canonical.unity-greeter]
 background="/usr/share/backgrounds/ubuntukylin-default-settings.jpg"
+
+[com.canonical.Unity.Launcher]
+favorites=['application://ubiquity-gtkui.desktop', 'application://nautilus.desktop', 'application://firefox.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://ubuntu-software-center.desktop', 'application://ubuntuone-installer.desktop', 'application://ubuntu-amazon-default.desktop', 'application://UbuntuOneMusiconeubuntucom.desktop', 'application://gnome-control-center.desktop', 'unity://desktop-icon', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
