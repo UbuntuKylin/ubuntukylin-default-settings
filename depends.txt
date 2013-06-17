@@ -34,3 +34,4 @@ gnome-tweak-tool
 fcitx-googlepinyin
 fcitx-table-wubi
 nautilus-open-terminal
+chromium-browser
