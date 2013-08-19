@@ -14,3 +14,7 @@ apt-get purge --auto-remove -y example-content guile-2.0-libs liblouis-data lint
 apt-get purge --auto-remove -y fonts-freefont-ttf fonts-kacst fonts-kacst-one fonts-lao fonts-nanum fonts-takao-pgothic fonts-tlwg-kinnari fonts-tlwg-loma fonts-tlwg-mono fonts-tlwg-norasi fonts-tlwg-purisa fonts-tlwg-sawasdee fonts-tlwg-typewriter fonts-tlwg-typist fonts-tlwg-typo fonts-tlwg-umpush fonts-tlwg-waree fonts-thai-tlwg 
 mkdir -p /etc/skel/桌面
 cp /usr/share/applications/firefox.desktop /etc/skel/桌面/
+
+sed -i "s/Ubuntu/UbuntuKylin/g" /usr/lib/firefox/distribution/distribution.ini
+sed -i "s/canonical/UbuntuKylin/g" /usr/lib/firefox/distribution/distribution.ini
+cp -f /usr/share/icons/hicolor/UbuntuLogo.png /usr/share/gnome-control-center/ui/UbuntuLogo.png

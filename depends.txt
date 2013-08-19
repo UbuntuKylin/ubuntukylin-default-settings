@@ -17,6 +17,8 @@
 
 # local services
 unity-china-music-scope
+unity-china-photo-scope
+unity-china-video-scope
 
 # subset of complete language support:
 firefox-locale-zh-hans
