@@ -19,6 +19,7 @@
 unity-china-music-scope
 unity-china-photo-scope
 unity-china-video-scope
+youker-assistant
 
 # subset of complete language support:
 firefox-locale-zh-hans
