@@ -16,3 +16,27 @@
 #
 # Example:
 # fortunes-de
+
+# local services
+unity-china-music-scope
+unity-china-photo-scope
+unity-china-video-scope
+youker-assistant
+
+# subset of complete language support:
+firefox-locale-zh-hans
+thunderbird-locale-zh-hans
+thunderbird-locale-zh-cn
+libreoffice-l10n-zh-cn
+
+#default apps
+cheese
+smplayer
+ubuntukylin-theme
+chinese-calendar
+indicator-china-weather
+gnome-tweak-tool
+fcitx-googlepinyin
+fcitx-table-wubi
+nautilus-open-terminal
+chromium-browser
