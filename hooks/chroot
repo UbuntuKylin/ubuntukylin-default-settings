@@ -7,7 +7,7 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus ibus-pinyin-db-android libopencc1 
+apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus ibus-pinyin-db-android libopencc1 ubiquity-plugin-ubuntuone ubuntu-wallpapers ubuntu-wallpapers-saucy 
 apt-get purge --auto-remove -y totem totem-common gstreamer1.0-clutter libtotem0 gir1.2-totem-plparser-1.0 libreoffice-help-en-us
 apt-get purge --auto-remove -y language-pack-de language-pack-es language-pack-pt firefox-locale-de firefox-locale-es firefox-locale-pt
 apt-get purge --auto-remove -y example-content guile-2.0-libs liblouis-data lintian landscape-client-ui-install
@@ -28,4 +28,16 @@ echo "\nUNZIP=\"-O GBK\" \nZIPINFO=\"-O GBK\"" >> /etc/environment
 # add the ubuntukylin source
 echo "\necho \"\ndeb http://archive.ubuntukylin.com/ubuntukylin saucy main \n#deb-src http://archive.ubuntukylin.com/ubuntukylin saucy main\" >> /target/etc/apt/sources.list" >> /usr/lib/ubiquity/apt-setup/finish-install
 
-
+# Close the startup applications
+if [ -f "/etc/xdg/autostart/deja-dup-monitor.desktop" ];then
+echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/deja-dup-monitor.desktop
+fi
+if [ -f "/etc/xdg/autostart/vino-server.desktop" ];then
+echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/vino-server.desktop
+fi
+if [ -f "/etc/xdg/autostart/gnome-user-share.desktop" ];then
+echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/gnome-user-share.desktop
+fi
+if [ -f "/etc/xdg/autostart/update-notifier.desktop" ];then
+echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/update-notifier.desktop
+fi

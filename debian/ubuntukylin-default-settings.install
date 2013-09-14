@@ -3,3 +3,4 @@ debian/unity.mo /usr/share/locale-langpack/zh_CN
 debian/theme-tool.desktop /usr/share/applications
 icons/UbuntuLogo.png /usr/share/icons/hicolor
 debian/ubuntukylin-archive-keyring.gpg /usr/share/keyrings
+override/* /etc/init/

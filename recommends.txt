@@ -22,6 +22,7 @@ unity-china-music-scope
 unity-china-photo-scope
 unity-china-video-scope
 youker-assistant
+ubuntukylin-wallpapers
 
 # subset of complete language support:
 firefox-locale-zh-hans
@@ -35,8 +36,8 @@ smplayer
 ubuntukylin-theme
 chinese-calendar
 indicator-china-weather
-gnome-tweak-tool
+rar
+unrar
 fcitx-googlepinyin
 fcitx-table-wubi
 nautilus-open-terminal
-chromium-browser
