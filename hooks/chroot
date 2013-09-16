@@ -7,7 +7,7 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus ibus-pinyin-db-android libopencc1 ubiquity-plugin-ubuntuone ubuntu-wallpapers ubuntu-wallpapers-saucy 
+apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus ibus-pinyin-db-android libopencc1 ubiquity-plugin-ubuntuone ubuntu-wallpapers ubuntu-wallpapers-saucy indicator-messages 
 apt-get purge --auto-remove -y totem totem-common gstreamer1.0-clutter libtotem0 gir1.2-totem-plparser-1.0 libreoffice-help-en-us
 apt-get purge --auto-remove -y language-pack-de language-pack-es language-pack-pt firefox-locale-de firefox-locale-es firefox-locale-pt
 apt-get purge --auto-remove -y example-content guile-2.0-libs liblouis-data lintian landscape-client-ui-install
