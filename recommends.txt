@@ -23,6 +23,7 @@ unity-china-photo-scope
 unity-china-video-scope
 youker-assistant
 ubuntukylin-wallpapers
+fcitx-qimpanel
 
 # subset of complete language support:
 firefox-locale-zh-hans
