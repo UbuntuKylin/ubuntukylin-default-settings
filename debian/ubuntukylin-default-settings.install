@@ -2,5 +2,4 @@ debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schem
 debian/unity.mo /usr/share/locale-langpack/zh_CN
 debian/theme-tool.desktop /usr/share/applications
 icons/UbuntuLogo.png /usr/share/icons/hicolor
-debian/ubuntukylin-archive-keyring.gpg /usr/share/keyrings
 override/* /etc/init/

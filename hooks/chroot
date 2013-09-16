@@ -25,9 +25,6 @@ cp -f /usr/share/locale-langpack/zh_CN/unity.mo /usr/share/locale-langpack/zh_CN
 # solve the messy code of zip packages.
 echo "\nUNZIP=\"-O GBK\" \nZIPINFO=\"-O GBK\"" >> /etc/environment
 
-# add the ubuntukylin source
-echo "\necho \"\ndeb http://archive.ubuntukylin.com/ubuntukylin saucy main \n#deb-src http://archive.ubuntukylin.com/ubuntukylin saucy main\" >> /target/etc/apt/sources.list" >> /usr/lib/ubiquity/apt-setup/finish-install
-
 # Close the startup applications
 if [ -f "/etc/xdg/autostart/deja-dup-monitor.desktop" ];then
 echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/deja-dup-monitor.desktop
