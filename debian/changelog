@@ -1,3 +1,14 @@
+ubuntukylin-default-settings (1.0.7) saucy; urgency=low
+
+  * correct the English explanation of slideshow and replace the slideshow picture 
+  * solve the messy code question of zip package
+  * modify the Launcher
+  * add some package dependencies and delete some packages
+  * optimize the system
+  * delete the background picture
+
+ -- ShuiLu Pi <pishuilu1128@126.com>  Mon, 16 Sep 2013 20:47:59 +0800
+
 ubuntukylin-default-settings (1.0.6) saucy; urgency=low
 
   * updated slideshow.
