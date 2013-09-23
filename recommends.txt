@@ -37,7 +37,6 @@ smplayer
 ubuntukylin-theme
 chinese-calendar
 indicator-china-weather
-p7zip-full
 fcitx-googlepinyin
 fcitx-table-wubi
 nautilus-open-terminal
