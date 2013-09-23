@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: UbuntuKylin Team <ubuntukylin-members@lists.launchpad.net>
 Build-Depends: debhelper (>= 7.0.50~),
  ubuntu-defaults-builder
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Vcs-Bzr: https://code.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 
@@ -16,7 +16,6 @@ Recommends: ${ubuntudefaults:Recommends}
 Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings
 Description: Default settings for the UbuntuKylin desktop
- This package contains the default settings used by UbuntuKylin. It contains customized default settings for the Chinese Ubuntu
+ This package contains the default settings used by UbuntuKylin. 
+ It contains customized default settings for the Chinese Ubuntu
  Edition.
-
-
