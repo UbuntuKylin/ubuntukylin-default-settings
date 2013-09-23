@@ -39,7 +39,6 @@ chinese-calendar
 indicator-china-weather
 rar
 unrar
-manpages-zh
 fcitx-googlepinyin
 fcitx-table-wubi
 nautilus-open-terminal
