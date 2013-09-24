@@ -2,10 +2,10 @@ ubuntukylin-default-settings (1.0.7) saucy; urgency=low
 
   * correct the English explanation of slideshow and replace the slideshow picture 
   * modify package dependencies as recommends
-  * modify recommend packages(delete gnome-tweak-tool、chromium-browser and add fcitx-ui-qimpanel、ubuntukylin-wallpapers、youker-assistant)
+  * modify recommend packages(delete gnome-tweak-tool、chromium-browser、ubiquity-plugin-ubuntuone、ubuntu-wallpapers、ubuntu-wallpapers-saucy、indicator-messages and add fcitx-ui-qimpanel、ubuntukylin-wallpapers、youker-assistant)
   * modify the Launcher(delete UbuntuOne、Amazon、UbuntuOne Music and add youker-assistant、gnome-terminal)
   * Close the autostart applications(include deja-dup-monitor、vino-server、gnome-user-share、update-notifier) 
-  * delete the background picture
+  * delete the background picture(the background picture added in ubuntukylin-wallpapers package)
   * delete theme-tool.desktop
 
  -- ShuiLu Pi <pishuilu1128@126.com>  Mon, 23 Sep 2013 17:30:27 +0800
