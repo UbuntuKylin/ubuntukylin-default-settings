@@ -22,8 +22,6 @@ sed -i "s/canonical/UbuntuKylin/g" /usr/lib/firefox/distribution/distribution.in
 cp -f /usr/share/icons/hicolor/UbuntuLogo.png /usr/share/gnome-control-center/ui/UbuntuLogo.png
 cp -f /usr/share/locale-langpack/zh_CN/unity.mo /usr/share/locale-langpack/zh_CN/LC_MESSAGES/unity.mo
 
-# solve the messy code of zip packages.
-echo "\nUNZIP=\"-O GBK\" \nZIPINFO=\"-O GBK\"" >> /etc/environment
 
 # Close the startup applications
 if [ -f "/etc/xdg/autostart/deja-dup-monitor.desktop" ];then
