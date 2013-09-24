@@ -6,6 +6,7 @@ ubuntukylin-default-settings (1.0.7) saucy; urgency=low
   * modify the Launcher(delete UbuntuOne、Amazon、UbuntuOne Music and add youker-assistant、gnome-terminal)
   * Close the autostart applications(include deja-dup-monitor、vino-server、gnome-user-share、update-notifier) 
   * delete the background picture
+  * delete theme-tool.desktop
 
  -- ShuiLu Pi <pishuilu1128@126.com>  Mon, 23 Sep 2013 17:30:27 +0800
 
