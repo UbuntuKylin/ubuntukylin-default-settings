@@ -3,6 +3,7 @@ ubuntukylin-default-settings (1.0.8) saucy; urgency=low
   * Remove unneeded theme-tools.desktop
   * Revert all system overrides.
   * Revert changes to /etc/environment
+  * Rewrite historical changelog.
 
  -- Aron Xu <happyaron@ubuntu.com>  Tue, 24 Sep 2013 13:59:53 +0800
 
