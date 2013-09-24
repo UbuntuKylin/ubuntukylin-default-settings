@@ -1,3 +1,23 @@
+ubuntukylin-default-settings (1.0.8) saucy; urgency=low
+
+  * Revert overrides changes.
+  * Correct spelling error.
+  * Move depends.txt content to recommends.txt.
+  * Modify recommended packages:
+    - Removed: gnome-tweak-tool, chromium-browser, indicator-messages
+      ubiquity-plugin-ubuntuone ubuntu-wallpapers, ubuntu-wallpapers-saucy
+    - Added: fcitx-ui-qimpanel, ubuntukylin-wallpapers, youker-assistant
+  * Modify the Launcher:
+    - Removed: UbuntuOne, Amazon, UbuntuOne Music
+    - Added: youker-assistant, gnome-terminal
+  * Remove unneeded theme-tools.desktop
+  * Remove background picture, which is now in ubuntukylin-wallpapaers.
+  * Do not autostart:
+    deja-dup-monitor, vino-server, gnome-user-share
+  * Revert all system overrides.
+
+ -- Aron Xu <happyaron@ubuntu.com>  Tue, 24 Sep 2013 13:59:53 +0800
+
 ubuntukylin-default-settings (1.0.7) saucy; urgency=low
 
   * correct the English explanation of slideshow and replace the slideshow picture 
