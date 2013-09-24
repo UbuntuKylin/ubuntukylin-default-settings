@@ -15,6 +15,7 @@ ubuntukylin-default-settings (1.0.8) saucy; urgency=low
   * Do not autostart:
     deja-dup-monitor, vino-server, gnome-user-share
   * Revert all system overrides.
+  * Revert changes to /etc/environment
 
  -- Aron Xu <happyaron@ubuntu.com>  Tue, 24 Sep 2013 13:59:53 +0800
 
