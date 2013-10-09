@@ -21,7 +21,6 @@ sed -i "/DISTRIB_DESCRIPTION/s/Ubuntu/UbuntuKylin/g" /etc/lsb-release
 sed -i "s/Ubuntu/UbuntuKylin/g" /usr/lib/firefox/distribution/distribution.ini
 sed -i "s/canonical/UbuntuKylin/g" /usr/lib/firefox/distribution/distribution.ini
 cp -f /usr/share/icons/hicolor/UbuntuLogo.png /usr/share/gnome-control-center/ui/UbuntuLogo.png
-cp -f /usr/share/locale-langpack/zh_CN/unity.mo /usr/share/locale-langpack/zh_CN/LC_MESSAGES/unity.mo
 
 
 # Close the startup applications
