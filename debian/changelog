@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.0.9) saucy; urgency=low
+
+  * Revert the file overwrite behavior for unity.mo (LP: #1222621)
+
+ -- Aron Xu <happyaron@ubuntu.com>  Wed, 09 Oct 2013 23:42:23 +0800
+
 ubuntukylin-default-settings (1.0.8) saucy; urgency=low
 
   * Remove unneeded theme-tools.desktop
