@@ -14,6 +14,7 @@ apt-get purge --auto-remove -y example-content guile-2.0-libs liblouis-data lint
 apt-get purge --auto-remove -y fonts-freefont-ttf fonts-kacst fonts-kacst-one fonts-lao fonts-nanum fonts-takao-pgothic fonts-tlwg-kinnari fonts-tlwg-loma fonts-tlwg-mono fonts-tlwg-norasi fonts-tlwg-purisa fonts-tlwg-sawasdee fonts-tlwg-typewriter fonts-tlwg-typist fonts-tlwg-typo fonts-tlwg-umpush fonts-tlwg-waree fonts-thai-tlwg 
 mkdir -p /etc/skel/桌面
 cp /usr/share/applications/firefox.desktop /etc/skel/桌面/
+cp /usr/share/backgrounds/warty-final-ubuntukylin.jpg /usr/share/backgrounds/ubuntukylin-default-settings.jpg
 
 sed -i "s/\`lsb_release -i -s 2> \/dev\/null || echo Debian\`/UbuntuKylin/g" /etc/default/grub
 sed -i "/DISTRIB_DESCRIPTION/s/Ubuntu/UbuntuKylin/g" /etc/lsb-release
