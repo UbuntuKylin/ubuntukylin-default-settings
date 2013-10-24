@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.0.10) saucy; urgency=low
+
+  * Fix build by removing unity.mo from .install
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Thu, 10 Oct 2013 00:28:17 +0800
+
 ubuntukylin-default-settings (1.0.9) saucy; urgency=low
 
   * Revert the file overwrite behavior for unity.mo (LP: #1222621)
