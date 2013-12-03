@@ -2,6 +2,7 @@ ubuntukylin-default-settings (1.0.11) trusty; urgency=low
 
   * Replace UbuntuKylin with Ubuntu Kylin.
   * Slightly update sentences in slides.
+  * Avoid touching /etc/skel in chroot script (LP: #1243330)
 
  -- Aron Xu <happyaron@ubuntu.com>  Wed, 04 Dec 2013 02:20:23 +0800
 
