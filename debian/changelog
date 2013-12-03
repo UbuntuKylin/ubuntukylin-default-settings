@@ -1,8 +1,15 @@
+ubuntukylin-default-settings (1.0.11) trusty; urgency=low
+
+  * Replace UbuntuKylin with Ubuntu Kylin.
+  * Slightly update sentences in slides.
+
+ -- Aron Xu <happyaron@ubuntu.com>  Wed, 04 Dec 2013 02:20:23 +0800
+
 ubuntukylin-default-settings (1.0.10) saucy; urgency=low
 
   * Fix build by removing unity.mo from .install
 
- -- Aron Xu <happyaron.xu@gmail.com>  Thu, 10 Oct 2013 00:28:17 +0800
+ -- Aron Xu <happyaron@ubuntu.com>  Thu, 10 Oct 2013 00:28:17 +0800
 
 ubuntukylin-default-settings (1.0.9) saucy; urgency=low
 
