@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+package=ubuntukylin-default-settings
+
+files="
+usr/share/gnome-control-center/ui/UbuntuLogo.png
+"
+
+if [ "$1" = remove -o "$1" = purge ]; then
+	for item in $files; do
+		dpkg-divert --package $package --rename --divert "/$item"".orig-brand" --remove "/$item"
+	done
+fi
+
+#DEBHELPER#
