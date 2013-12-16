@@ -1,14 +1,17 @@
 ubuntukylin-default-settings (1.0.14) trusty; urgency=low
 
-  [ Dimitri John Ledkov ]
-  * Fix missing ubiquity desktop shortcut (LP: #1208386) as per fix
-    suggestion made on 2013-08-29 in
-    https://bugs.launchpad.net/ubuntu/+source/ubuntukylin-default-settings/+bug/1208386/comments/6
   [ Shuilu Pi ]
-  * replace UbuntuLogo.png for trusty version
-  * modify file 20_ubuntukylin-default-settings.gschema.override
+  * Replace UbuntuLogo.png for Trusty version.
+  * Change Chinese text of home folder.
 
- -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Mon, 16 Dec 2013 19:57:31 +0800
+  [ Dimitri John Ledkov ]
+  * Fix missing ubiquity desktop shortcut (LP: #1208386).
+
+  [ Aron Xu ]
+  * Revert desktop service modification (LP: #1243337).
+  * Revert LSB DISTRIB_DESCRIPTION modification
+
+ -- Aron Xu <happyaron@ubuntu.com>  Tue, 17 Dec 2013 00:33:15 +0800
 
 ubuntukylin-default-settings (1.0.13) trusty; urgency=low
 
