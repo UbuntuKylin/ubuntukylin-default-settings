@@ -4,7 +4,7 @@ trash-icon-visible=true
 volumes-visible=true
 
 [org.gnome.nautilus.desktop]
-home-icon-name='我的文档'
+home-icon-name='主文件夹'
 trash-icon-name='回收站'
 
 [org.gnome.desktop.interface]
