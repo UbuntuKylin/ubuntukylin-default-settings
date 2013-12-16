@@ -1,10 +1,21 @@
-ubuntukylin-default-settings (1.0.12ubuntu1) UNRELEASED; urgency=low
+buntukylin-default-settings (1.0.14) trusty; urgency=low
 
+  [ Dimitri John Ledkov ]
   * Fix missing ubiquity desktop shortcut (LP: #1208386) as per fix
     suggestion made on 2013-08-29 in
     https://bugs.launchpad.net/ubuntu/+source/ubuntukylin-default-settings/+bug/1208386/comments/6
+  [ Shuilu Pi ]
+  * replace UbuntuLogo.png for trusty version
+  * modify file 20_ubuntukylin-default-settings.gschema.override
 
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Mon, 16 Dec 2013 09:52:52 +0000
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Mon, 16 Dec 2013 19:57:31 +0800
+
+buntukylin-default-settings (1.0.13) trusty; urgency=low
+
+  * Use dpkg-divert for UbuntuLogo.png
+  * Disable firefox vendor and distributor change in hook
+
+ -- Aron Xu <happyaron@ubuntu.com>  Mon, 09 Dec 2013 19:38:18 +0800
 
 ubuntukylin-default-settings (1.0.12) trusty; urgency=low
 
