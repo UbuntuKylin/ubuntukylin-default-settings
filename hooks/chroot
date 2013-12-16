@@ -23,15 +23,15 @@ sed -i "/DISTRIB_DESCRIPTION/s/Ubuntu/Ubuntu Kylin/g" /etc/lsb-release
 
 
 # Close the startup applications
-if [ -f "/etc/xdg/autostart/deja-dup-monitor.desktop" ];then
-echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/deja-dup-monitor.desktop
-fi
-if [ -f "/etc/xdg/autostart/vino-server.desktop" ];then
-echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/vino-server.desktop
-fi
-if [ -f "/etc/xdg/autostart/gnome-user-share.desktop" ];then
-echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/gnome-user-share.desktop
-fi
-if [ -f "/etc/xdg/autostart/update-notifier.desktop" ];then
-echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/update-notifier.desktop
-fi
+#if [ -f "/etc/xdg/autostart/deja-dup-monitor.desktop" ];then
+#echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/deja-dup-monitor.desktop
+#fi
+#if [ -f "/etc/xdg/autostart/vino-server.desktop" ];then
+#echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/vino-server.desktop
+#fi
+#if [ -f "/etc/xdg/autostart/gnome-user-share.desktop" ];then
+#echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/gnome-user-share.desktop
+#fi
+#if [ -f "/etc/xdg/autostart/update-notifier.desktop" ];then
+#echo "\nX-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/update-notifier.desktop
+#fi
