@@ -1,3 +1,11 @@
+ubuntukylin-default-settings (1.0.12ubuntu1) UNRELEASED; urgency=low
+
+  * Fix missing ubiquity desktop shortcut (LP: #1208386) as per fix
+    suggestion made on 2013-08-29 in
+    https://bugs.launchpad.net/ubuntu/+source/ubuntukylin-default-settings/+bug/1208386/comments/6
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Mon, 16 Dec 2013 09:52:52 +0000
+
 ubuntukylin-default-settings (1.0.12) trusty; urgency=low
 
   [ Shuilu Pi ]
