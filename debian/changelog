@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.0.15) trusty; urgency=low
+
+  * Avoid removing gstreamer1.0-clutter in chroot hook.
+
+ -- Aron Xu <happyaron@ubuntu.com>  Wed, 18 Dec 2013 09:24:13 +0800
+
 ubuntukylin-default-settings (1.0.14) trusty; urgency=low
 
   [ Shuilu Pi ]
