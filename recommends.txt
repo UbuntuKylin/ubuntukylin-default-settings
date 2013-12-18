@@ -39,5 +39,4 @@ chinese-calendar
 indicator-china-weather
 fcitx-googlepinyin
 fcitx-table-wubi
-fcitx-qimpanel-configtool
 nautilus-open-terminal
