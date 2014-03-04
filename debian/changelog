@@ -1,6 +1,6 @@
 ubuntukylin-default-settings (1.0.17) trusty; urgency=low
 
-  * Add fcitx-qimpanel-configtool to Recommends.
+  * Add fcitx-qimpanel-configtool to Recommends (LP: #1284976).
 
  -- Aron Xu <happyaron@ubuntu.com>  Tue, 04 Mar 2014 12:34:11 +0800
 
