@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.0.17) trusty; urgency=low
+
+  * Add fcitx-qimpanel-configtool to Recommends.
+
+ -- Aron Xu <happyaron@ubuntu.com>  Tue, 04 Mar 2014 12:34:11 +0800
+
 ubuntukylin-default-settings (1.0.16) trusty; urgency=medium
 
   * Don't try to remove libreoffice-help-en-us. It doesn't exist any more.
