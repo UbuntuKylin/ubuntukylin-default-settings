@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.0.16) trusty; urgency=medium
+
+  * Don't try to remove libreoffice-help-en-us. It doesn't exist any more.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 11 Feb 2014 16:06:20 +0000
+
 ubuntukylin-default-settings (1.0.15) trusty; urgency=low
 
   * Avoid removing gstreamer1.0-clutter in chroot hook.
