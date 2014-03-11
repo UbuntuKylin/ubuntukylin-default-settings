@@ -33,7 +33,6 @@ thunderbird-locale-zh-cn
 libreoffice-l10n-zh-cn
 
 #default apps
-cheese
 smplayer
 ubuntukylin-theme
 chinese-calendar

@@ -3,7 +3,7 @@ set -e
 package=ubuntukylin-default-settings
 
 files="
-usr/share/gnome-control-center/ui/UbuntuLogo.png
+usr/share/unity-control-center/ui/UbuntuLogo.png
 "
 
 if [ "$1" = install -o "$1" = upgrade ]; then

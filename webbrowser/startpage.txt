@@ -6,3 +6,4 @@
 #
 # Example:
 # http://www.ubuntuforums.org?release=${distro_release_number}
+http://123.sogou.com/?11458
