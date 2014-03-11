@@ -1,2 +1,2 @@
 debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
-icons/UbuntuLogo.png /usr/share/gnome-control-center/ui/
+icons/UbuntuLogo.png /usr/share/unity-control-center/ui/
