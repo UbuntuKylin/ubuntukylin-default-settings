@@ -40,3 +40,4 @@ indicator-china-weather
 fcitx-googlepinyin
 fcitx-table-wubi
 nautilus-open-terminal
+chromium-browser
