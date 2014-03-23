@@ -8,3 +8,4 @@
 #
 # Example:
 # Wikipedia (de)
+百度
