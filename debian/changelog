@@ -1,3 +1,12 @@
+ubuntukylin-default-settings (1.1.0) trusty; urgency=low
+
+  * Not removing indicator-messages (LP: #1288517)
+  * Removing indicator-keyboard (LP: #1288519)
+  * Set correct default start page and search provider (LP: #1295770)
+  * Add repository of archive.ubuntukylin.com
+
+ -- Aron Xu <happyaron@ubuntu.com>  Mon, 24 Mar 2014 00:52:06 +0800
+
 ubuntukylin-default-settings (1.0.17) trusty; urgency=low
 
   * Add fcitx-qimpanel-configtool to Recommends (LP: #1284976).
