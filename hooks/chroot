@@ -7,7 +7,7 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus ibus-pinyin-db-android libopencc1 ubiquity-plugin-ubuntuone ubuntu-wallpapers ubuntu-wallpapers-saucy indicator-messages libtcl8.6 
+apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus ibus-pinyin-db-android libopencc1 ubiquity-plugin-ubuntuone ubuntu-wallpapers ubuntu-wallpapers-saucy indicator-keyboard libtcl8.6 
 #apt-get purge --auto-remove -y totem totem-common gstreamer1.0-clutter libtotem0 gir1.2-totem-plparser-1.0 libreoffice-help-en-us
 apt-get purge --auto-remove -y totem totem-common libtotem0 gir1.2-totem-plparser-1.0
 apt-get purge --auto-remove -y language-pack-de language-pack-es language-pack-pt firefox-locale-de firefox-locale-es firefox-locale-pt
@@ -17,7 +17,7 @@ apt-get purge --auto-remove -y fonts-freefont-ttf fonts-kacst fonts-kacst-one fo
 #cp /usr/share/applications/firefox.desktop /etc/skel/桌面/
 
 sed -i "s/\`lsb_release -i -s 2> \/dev\/null || echo Debian\`/Ubuntu\\\ Kylin/g" /etc/default/grub
-sed -i "/CHROMIUM_FLAGS/s/\"\"/\"http:\/\/123.sogou.com\/?11458\"/g" /etc/chromium-browser/default
+#sed -i "/CHROMIUM_FLAGS/s/\"\"/\"http:\/\/123.sogou.com\/?11458\"/g" /etc/chromium-browser/default
 #sed -i "/DISTRIB_DESCRIPTION/s/Ubuntu/Ubuntu Kylin/g" /etc/lsb-release
 #sed -i "s/Ubuntu/Ubuntu Kylin/g" /usr/lib/firefox/distribution/distribution.ini
 #sed -i "s/canonical/Ubuntu Kylin/g" /usr/lib/firefox/distribution/distribution.ini
