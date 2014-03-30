@@ -1,3 +1,10 @@
+ubuntukylin-default-settings (1.1.1) trusty; urgency=high
+
+  * Make hooks/chroot script executable again (LP: #1298809)
+  * std-ver: 3.9.4 -> 3.9.5, no change.
+
+ -- Aron Xu <happyaron@ubuntu.com>  Mon, 31 Mar 2014 03:51:18 +0800
+
 ubuntukylin-default-settings (1.1.0) trusty; urgency=low
 
   * Not removing indicator-messages (LP: #1288517)
