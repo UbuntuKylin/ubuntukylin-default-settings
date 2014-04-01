@@ -9,7 +9,7 @@ set -e
 
 cat /usr/share/ubuntukylin-default-settings/remove-package.list | while read line
 do
-    [ `dpkg -l $line | grep -c "ii"` != 0 ] && apt-get purge --auto-remove -y $line
+    [ `dpkg -l $line | grep -c "^ii"` != 0 ] && apt-get purge --auto-remove -y $line
 done
 
 #apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus libopencc1 ubuntu-wallpapers ubuntu-wallpapers-trusty indicator-keyboard libtcl8.6 
