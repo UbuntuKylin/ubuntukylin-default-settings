@@ -7,12 +7,17 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus libopencc1 ubuntu-wallpapers ubuntu-wallpapers-trusty indicator-keyboard libtcl8.6 
+cat /usr/share/ubuntukylin-default-settings/remove-package.list | while read line
+do
+    [ `dpkg -l $line | grep -c "ii"` != 0 ] && apt-get purge --auto-remove -y $line
+done
+
+#apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus libopencc1 ubuntu-wallpapers ubuntu-wallpapers-trusty indicator-keyboard libtcl8.6 
 #apt-get purge --auto-remove -y totem totem-common gstreamer1.0-clutter libtotem0 gir1.2-totem-plparser-1.0 libreoffice-help-en-us
-apt-get purge --auto-remove -y totem totem-common libtotem0 gir1.2-totem-plparser-1.0
-apt-get purge --auto-remove -y language-pack-de language-pack-es language-pack-pt firefox-locale-de firefox-locale-es firefox-locale-pt
-apt-get purge --auto-remove -y example-content guile-2.0-libs liblouis-data lintian landscape-client-ui-install
-apt-get purge --auto-remove -y fonts-freefont-ttf fonts-kacst fonts-kacst-one fonts-lao fonts-nanum fonts-takao-pgothic fonts-tlwg-kinnari fonts-tlwg-loma fonts-tlwg-mono fonts-tlwg-norasi fonts-tlwg-purisa fonts-tlwg-sawasdee fonts-tlwg-typewriter fonts-tlwg-typist fonts-tlwg-typo fonts-tlwg-umpush fonts-tlwg-waree fonts-thai-tlwg 
+#apt-get purge --auto-remove -y totem totem-common libtotem0 gir1.2-totem-plparser-1.0
+#apt-get purge --auto-remove -y language-pack-de language-pack-es language-pack-pt firefox-locale-de firefox-locale-es firefox-locale-pt
+#apt-get purge --auto-remove -y example-content guile-2.0-libs liblouis-data lintian landscape-client-ui-install
+#apt-get purge --auto-remove -y fonts-freefont-ttf fonts-kacst fonts-kacst-one fonts-lao fonts-nanum fonts-takao-pgothic fonts-tlwg-kinnari fonts-tlwg-loma fonts-tlwg-mono fonts-tlwg-norasi fonts-tlwg-purisa fonts-tlwg-sawasdee fonts-tlwg-typewriter fonts-tlwg-typist fonts-tlwg-typo fonts-tlwg-umpush fonts-tlwg-waree fonts-thai-tlwg 
 #mkdir -p /etc/skel/桌面
 #cp /usr/share/applications/firefox.desktop /etc/skel/桌面/
 
