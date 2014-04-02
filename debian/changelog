@@ -1,3 +1,13 @@
+ubuntukylin-default-settings (1.1.2) trusty; urgency=low
+
+  [ ShuiLu Pi ]
+  * Remove ubuntu-wallpapers-trusty
+  * Add detetion before removing packages
+  * Update slideshow pictures (LP: #1298339)
+  * Not removing non-existing ibus-pinyin-db-android
+
+ -- Aron Xu <happyaron@ubuntu.com>  Tue, 01 Apr 2014 22:15:43 +0800
+
 ubuntukylin-default-settings (1.1.1) trusty; urgency=high
 
   * Make hooks/chroot script executable again (LP: #1298809)
