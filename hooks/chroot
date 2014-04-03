@@ -7,10 +7,14 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-cat /usr/share/ubuntukylin-default-settings/remove-package.list | while read line
-do
-    [ `dpkg -l $line | grep -c "^ii"` != 0 ] && apt-get purge --auto-remove -y $line
-done
+#cat /usr/share/ubuntukylin-default-settings/remove-package.list | while read line
+#do
+#    [ `dpkg -l $line | grep -c "^ii"` != 0 ] && apt-get purge --auto-remove -y $line
+#done
+
+rawlist=$(cat /usr/share/ubuntukylin-default-settings/remove-package.list)
+list=$(dpkg -l $rawlist | awk '/^i/ {print $2}')
+[ -z "$list" ] || apt-get purge --auto-remove -y $list
 
 #apt-get purge --auto-remove -y ibus ibus-gtk ibus-gtk3 python-ibus libopencc1 ubuntu-wallpapers ubuntu-wallpapers-trusty indicator-keyboard libtcl8.6 
 #apt-get purge --auto-remove -y totem totem-common gstreamer1.0-clutter libtotem0 gir1.2-totem-plparser-1.0 libreoffice-help-en-us
