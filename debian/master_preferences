@@ -1,0 +1,19 @@
+{
+ "homepage" : "http://123.sogou.com/?11458",
+ "homepage_is_newtabpage" : false,
+ "browser" : {
+   "show_home_button" : true
+ },
+ "bookmark_bar" : {
+   "show_on_all_tabs" : true
+ },
+ "distribution" : {
+   "skip_first_run_ui" : true,
+   "show_welcome_page" : true,
+   "import_search_engine" : true,
+   "import_history" : false,
+   "create_all_shortcuts" : true,
+   "do_not_launch_chrome" : true,
+   "make_chrome_default" : false
+ }
+}

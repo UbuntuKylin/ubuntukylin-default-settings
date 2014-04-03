@@ -14,6 +14,3 @@ fi
 
 #DEBHELPER#
 
-if [ "$1" = remove -o "$1" = abort-install -o "$1" = disappear ]; then
-    dpkg-divert --package ubuntukylin-default-settings --rename --divert /etc/chromium-browser/default.uk-defaults --remove /etc/chromium-browser/default
-fi
