@@ -24,9 +24,16 @@ landscape-client-ui-install
 fonts-freefont-ttf 
 fonts-kacst 
 fonts-kacst-one 
+fonts-khmeros-core
 fonts-lao 
+fonts-lklug-sinhala
 fonts-nanum 
+fonts-sil-abyssinica
+fonts-sil-padauk
 fonts-takao-pgothic 
+fonts-thai-tlwg
+fonts-tibetan-machine
+fonts-tlwg-garuda
 fonts-tlwg-kinnari 
 fonts-tlwg-loma 
 fonts-tlwg-mono 
@@ -38,4 +45,3 @@ fonts-tlwg-typist
 fonts-tlwg-typo 
 fonts-tlwg-umpush 
 fonts-tlwg-waree 
-fonts-thai-tlwg
