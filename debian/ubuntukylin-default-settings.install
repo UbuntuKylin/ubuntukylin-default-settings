@@ -4,3 +4,5 @@ debian/ubuntukylin-release /etc/
 debian/master_preferences /usr/lib/chromium-browser/
 debian/remove-package.list /usr/share/ubuntukylin-default-settings/
 icons/UbuntuLogo.png /usr/share/unity-control-center/ui/
+debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-settings/
+debian/firefox/ubuntukylin-browser-defaults.properties usr/share/ubuntukylin-default-settings/
