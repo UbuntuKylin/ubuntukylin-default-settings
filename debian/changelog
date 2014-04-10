@@ -1,3 +1,18 @@
+ubuntukylin-default-settings (1.1.5) trusty; urgency=medium
+
+  [ ShuiLu Pi ]
+  * Remove one slideshow (LP: #1306100)
+
+  [ Jack Yu ]
+  * Add ubuntukylin-keyring and ubuntu-kylin-software-center to
+    package dependency (LP: #1306100)
+
+  [ Anthony Wong ]
+  * Fix the issue that some text are garbled during language
+    selection phase of installation (LP: #1305485)
+
+ -- Anthony Wong <anthony.wong@ubuntu.com>  Fri, 11 Apr 2014 01:28:27 +0800
+
 ubuntukylin-default-settings (1.1.4) trusty; urgency=low
 
   [ Aron Xu ]
