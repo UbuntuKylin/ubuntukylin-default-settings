@@ -15,5 +15,16 @@
    "create_all_shortcuts" : true,
    "do_not_launch_chrome" : true,
    "make_chrome_default" : false
- }
+ },
+ "search_provider_overrides_version": 1,
+  "search_provider_overrides": [
+     { "name": "\u767E\u5EA6",
+       "keyword": "baidu.com",
+       "search_url": "http://www.baidu.com/s?tn=ubuntuu_dg&ie={inputEncoding}&wd={searchTerms}",
+       "favicon_url": "",
+       "suggest_url": "",
+       "encoding": "UTF-8",
+       "id":1001
+     }
+  ]
 }
