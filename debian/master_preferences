@@ -21,8 +21,8 @@
      { "name": "\u767E\u5EA6",
        "keyword": "baidu.com",
        "search_url": "http://www.baidu.com/s?tn=ubuntuu_dg&ie={inputEncoding}&wd={searchTerms}",
-       "favicon_url": "",
-       "suggest_url": "",
+       "favicon_url": "www.baidu.com",
+       "suggest_url": "www.baidu.com",
        "encoding": "UTF-8",
        "id":1001
      }
