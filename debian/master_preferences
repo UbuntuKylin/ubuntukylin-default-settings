@@ -10,7 +10,6 @@
  "distribution" : {
    "skip_first_run_ui" : true,
    "show_welcome_page" : true,
-   "import_search_engine" : true,
    "import_history" : false,
    "create_all_shortcuts" : true,
    "do_not_launch_chrome" : true,
