@@ -26,6 +26,7 @@ ubuntukylin-wallpapers
 fcitx-ui-qimpanel
 fcitx-qimpanel-configtool
 ubuntukylin-keyring
+ubuntu-kylin-docs
 ubuntu-kylin-software-center
 
 # subset of complete language support:
