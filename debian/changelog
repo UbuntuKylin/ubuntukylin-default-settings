@@ -1,3 +1,22 @@
+ubuntukylin-default-settings (1.1.7) trusty; urgency=low
+
+  [ Shuilu Pi ]
+  * Add ubuntu-session to Recommends (LP: #1298237)
+  * Add Ubuntu Kylin Software Center to Launcher
+  * Add back Korean font
+
+  [ Anthony Wong ]
+  * Improve search engine settings for Chromium
+
+ -- Aron Xu <happyaron@ubuntu.com>  Wed, 16 Apr 2014 15:37:53 +0800
+
+ubuntukylin-default-settings (1.1.6) trusty; urgency=low
+
+  [ Anthony Wong ]
+  * Set default search engine for Chromium (LP: #1295770)
+
+ -- Aron Xu <happyaron@ubuntu.com>  Fri, 11 Apr 2014 15:51:28 +0800
+
 ubuntukylin-default-settings (1.1.5) trusty; urgency=medium
 
   [ ShuiLu Pi ]
