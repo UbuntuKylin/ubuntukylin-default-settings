@@ -2,7 +2,6 @@ ubuntukylin-default-settings (1.1.7) trusty; urgency=low
 
   [ Shuilu Pi ]
   * Add ubuntu-session to Recommends (LP: #1298237)
-  * Add Ubuntu Kylin Software Center to Launcher
   * Add back Korean font
 
   [ Anthony Wong ]
