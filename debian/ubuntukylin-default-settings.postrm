@@ -4,6 +4,7 @@ package=ubuntukylin-default-settings
 
 files="
 usr/share/unity-control-center/ui/UbuntuLogo.png
+etc/os-release
 "
 
 if [ "$1" = remove -o "$1" = purge ]; then
