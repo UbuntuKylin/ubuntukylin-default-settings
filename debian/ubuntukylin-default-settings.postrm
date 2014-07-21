@@ -12,5 +12,7 @@ if [ "$1" = remove -o "$1" = purge ]; then
 	done
 fi
 
+sed -i "/NAME/s/Ubuntu Kylin/Ubuntu/g" /etc/os-release
+
 #DEBHELPER#
 
