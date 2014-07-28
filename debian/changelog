@@ -1,4 +1,4 @@
-ubuntukylin-default-settings (1.2.0) utopc; urgency=low
+ubuntukylin-default-settings (1.2.0) utopic; urgency=low
 
   * Use os-release instead of ubuntukylin-release
 
