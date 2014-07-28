@@ -1,10 +1,16 @@
+ubuntukylin-default-settings (1.2.0) utopc; urgency=low
+
+  * Use os-release instead of ubuntukylin-release
+
+ -- Aron Xu <happyaron@ubuntu.com>  Mon, 28 Jul 2014 21:09:45 +0800
+
 ubuntukylin-default-settings (1.1.10) trusty; urgency=low
  
   [ Ma Jun ]
   * Really add extra installation of ubuntu-kylin-docs in hooks/chroot
     (LP: #1308889)
 
- -- Aron Xu <aron@debian.org>  Thu, 17 Apr 2014 17:09:12 +0800
+ -- Aron Xu <happyaron@ubuntu.com>  Thu, 17 Apr 2014 17:09:12 +0800
 
 ubuntukylin-default-settings (1.1.8) trusty; urgency=low
 
