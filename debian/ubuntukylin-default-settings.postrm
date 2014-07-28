@@ -3,6 +3,7 @@ set -e
 package=ubuntukylin-default-settings
 
 files="
+etc/os-release
 usr/share/unity-control-center/ui/UbuntuLogo.png
 "
 
@@ -11,8 +12,6 @@ if [ "$1" = remove -o "$1" = purge ]; then
 		dpkg-divert --package $package --rename --divert "/$item"".orig-brand" --remove "/$item"
 	done
 fi
-
-sed -i "/NAME/s/Ubuntu Kylin/Ubuntu/g" /etc/os-release
 
 #DEBHELPER#
 

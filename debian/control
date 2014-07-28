@@ -2,20 +2,18 @@ Source: ubuntukylin-default-settings
 Section: metapackages
 Priority: optional
 Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
-Build-Depends: debhelper (>= 7.0.50~),
- ubuntu-defaults-builder
+Build-Depends: debhelper (>= 7.0.50~), ubuntu-defaults-builder
 Standards-Version: 3.9.5
 Vcs-Bzr: https://code.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 
 Package: ubuntukylin-default-settings
 Architecture: all
-Depends: ${misc:Depends},
- ${ubuntudefaults:Depends}
+Depends: ${misc:Depends}, ${ubuntudefaults:Depends}
 Recommends: ${ubuntudefaults:Recommends}
 Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings
 Description: Default settings for the Ubuntu Kylin desktop
- This package contains the default settings used by Ubuntu Kylin. 
+ This package contains the default settings used by Ubuntu Kylin.
  It contains customized default settings for the Chinese Ubuntu
  Edition.
