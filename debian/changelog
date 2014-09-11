@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.2.1) utopic; urgency=low
+
+  * Amend behaviour for conffile handling
+
+ -- Aron Xu <happyaron@gmail.com>  Wed, 30 Jul 2014 16:31:55 +0800
+
 ubuntukylin-default-settings (1.2.0) utopic; urgency=low
 
   * Use os-release instead of ubuntukylin-release

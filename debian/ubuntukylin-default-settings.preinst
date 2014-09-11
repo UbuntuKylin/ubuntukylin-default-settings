@@ -3,7 +3,6 @@ set -e
 package=ubuntukylin-default-settings
 
 files="
-etc/os-release
 usr/share/unity-control-center/ui/UbuntuLogo.png
 "
 
@@ -11,6 +10,7 @@ if [ "$1" = install -o "$1" = upgrade ]; then
 	for item in $files; do
 		dpkg-divert --package $package --rename --divert "/$item"".orig-brand" --add "/$item"
 	done
+        sed -i "/NAME/s/Ubuntu/Ubuntu Kylin/g" /etc/os-release
         rm -f /etc/ubuntukylin-release
 fi
 

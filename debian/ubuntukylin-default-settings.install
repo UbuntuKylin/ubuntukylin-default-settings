@@ -1,6 +1,5 @@
 debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
 debian/ubuntukylin.list /etc/apt/sources.list.d/
-debian/os-release /etc/
 debian/master_preferences /usr/lib/chromium-browser/
 icons/UbuntuLogo.png /usr/share/unity-control-center/ui/
 debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-settings/
