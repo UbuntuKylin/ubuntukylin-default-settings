@@ -17,31 +17,3 @@
 # Example:
 # fortunes-de
 
-# local services
-unity-china-music-scope
-unity-china-photo-scope
-unity-china-video-scope
-youker-assistant
-ubuntukylin-wallpapers
-fcitx-ui-qimpanel
-fcitx-qimpanel-configtool
-ubuntukylin-keyring
-ubuntu-kylin-docs
-ubuntu-kylin-software-center
-
-# subset of complete language support:
-firefox-locale-zh-hans
-thunderbird-locale-zh-hans
-thunderbird-locale-zh-cn
-libreoffice-l10n-zh-cn
-
-#default apps
-smplayer
-ubuntukylin-theme
-chinese-calendar
-indicator-china-weather
-fcitx-googlepinyin
-fcitx-table-wubi
-nautilus-open-terminal
-chromium-browser
-ubuntu-session
