@@ -4,6 +4,7 @@ package=ubuntukylin-default-settings
 
 files="
 usr/share/unity-control-center/ui/UbuntuLogo.png
+usr/share/language-selector/data/pkg_depends
 "
 
 if [ "$1" = install -o "$1" = upgrade ]; then
