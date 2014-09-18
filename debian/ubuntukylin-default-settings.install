@@ -3,5 +3,6 @@ debian/ubuntukylin.list /etc/apt/sources.list.d/
 debian/master_preferences /usr/lib/chromium-browser/
 debian/pkg_depends /usr/share/language-selector/data/
 icons/UbuntuLogo.png /usr/share/unity-control-center/ui/
+icons/ubuntu_installed.png /usr/share/ubiquity/pixmaps
 debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-settings/
 debian/firefox/ubuntukylin-browser-defaults.properties usr/share/ubuntukylin-default-settings/
