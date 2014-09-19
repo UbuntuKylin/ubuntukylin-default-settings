@@ -14,6 +14,7 @@ if [ "$1" = install -o "$1" = upgrade ]; then
 	done
         sed -i "/NAME/s/Ubuntu/Ubuntu Kylin/g" /etc/os-release
         rm -f /etc/ubuntukylin-release
+        rm -f /usr/share/language-support/incomplete-language-support-gnome.note
 fi
 
 #DEBHELPER#
