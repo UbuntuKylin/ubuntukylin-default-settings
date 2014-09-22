@@ -1,8 +1,8 @@
 ubuntukylin-default-settings (1.3.0) utopic; urgency=low
 
-  * When login the system, there is no windows will pop up that tips install language.(LP: #1335776)
-  * Fix the Ubuntu Kylin icon problem when installing system.(LP:  #1300545)
-  * Fix the chinese of zip package is garbled.(LP: #1222684)
+  * Eliminate the pop up of incomplete language support (LP: #1335776)
+  * Fix the Ubuntu Kylin icon problem when installing system (LP:  #1300545)
+  * Export shell variables for using GBK as default encoding for zip (LP: #1222684)
   * Replace UbuntuLogo.png file for Ubuntu Kylin 14.10.
   * Delete files about slideshow
   * Clear recommends.txt and remove remove-package.list
