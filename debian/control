@@ -15,5 +15,3 @@ Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings
 Description: Default settings for the Ubuntu Kylin desktop
  This package contains the default settings used by Ubuntu Kylin.
- It contains customized default settings for the Chinese Ubuntu
- Edition.
