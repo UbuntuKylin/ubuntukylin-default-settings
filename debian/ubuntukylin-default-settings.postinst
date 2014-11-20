@@ -6,7 +6,7 @@ FILE_PATH=/etc/apt/sources.list.d
 FILE_NAME=ubuntukylin.list
 
 if [ "$1" = configure ]; then
-	md5sum ${FILE_PATH}/* 2>/dev/null | grep -v ${FILE_NAME} | grep ${FILE_MD5SUM} | awk '{print $2}' | xargs rm -f
+	md5sum ${FILE_PATH}/*.list 2>/dev/null | grep -v ${FILE_NAME} | grep ${FILE_MD5SUM} | awk '{print $2}' | xargs rm -f
 fi
 
 #DEBHELPER#
