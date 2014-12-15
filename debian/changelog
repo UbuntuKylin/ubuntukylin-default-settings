@@ -1,3 +1,15 @@
+ubuntukylin-default-settings (1.3.3) vivid; urgency=medium
+ 
+  * change the UbuntuLogo.png for Ubuntu Kylin 15.04.(LP: #1395590)
+
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Mon, 15 Dec 2014 14:33:45 +0800
+
+ubuntukylin-default-settings (1.3.2) vivid; urgency=medium
+ 
+  * Remove duplicate sources.list entry for certain applications
+
+ -- Aron Xu <happyaron@ubuntu.com>  Fri, 21 Nov 2014 01:55:05 +0800
+
 ubuntukylin-default-settings (1.3.1) utopic; urgency=low
 
   * Be more specific in replacing Ubuntu in /etc/os-release to prevent
