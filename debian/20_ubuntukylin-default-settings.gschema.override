@@ -19,6 +19,7 @@ favorites=['application://ubiquity.desktop', 'application://nautilus.desktop', '
 
 [com.canonical.Unity]
 integrated-menus=true
+always-show-menus=true
 
 [org.compiz.unityshell]
 launcher-minimize-window=true

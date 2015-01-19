@@ -1,6 +1,6 @@
 ubuntukylin-default-settings (1.3.4) vivid; urgency=low
 
-  * Turn LIM on by default (LP: #1412297)
+  * Turn LIM on by default and always show menu (LP: #1412297)
   * Turn "click to minimize" on by default (LP: #1412298)
 
  -- Anthony Wong <anthony.wong@ubuntu.com>  Mon, 19 Jan 2015 17:01:07 +0800
