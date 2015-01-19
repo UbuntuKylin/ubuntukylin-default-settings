@@ -16,3 +16,9 @@ theme="ubuntukylin-theme"
 
 [com.canonical.Unity.Launcher]
 favorites=['application://ubiquity.desktop', 'application://nautilus.desktop', 'application://firefox.desktop', 'application://chromium-browser.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://ubuntu-software-center.desktop', 'application://youker-assistant.desktop', 'application://gnome-terminal.desktop', 'application://gnome-control-center.desktop', 'unity://desktop-icon', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+
+[com.canonical.Unity]
+integrated-menus=true
+
+[org.compiz.unityshell]
+launcher-minimize-window=true
