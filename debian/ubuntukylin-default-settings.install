@@ -1,4 +1,6 @@
 debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
+debian/searchingthedashlegalnotice.html /usr/share/unity-control-center/
+debian/searchingthedashlegalnotice.html /usr/share/unity/icons/
 debian/ubuntukylin.list /etc/apt/sources.list.d/
 debian/master_preferences /usr/lib/chromium-browser/
 debian/pkg_depends /usr/share/language-selector/data/
