@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.3.6) vivid; urgency=medium
+
+  * Install native origin configuration for apport (LP: #1419061)
+
+ -- Aron Xu <happyaron@ubuntu.com>  Tue, 17 Mar 2015 16:49:26 +0800
+
 ubuntukylin-default-settings (1.3.5) vivid; urgency=medium
 
   * Apply zip GBK hack only when LANGUAGE is zh_CN

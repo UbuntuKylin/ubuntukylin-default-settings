@@ -1,9 +1,10 @@
 debian/20_ubuntukylin-default-settings.gschema.override usr/share/glib-2.0/schemas
-debian/ubuntukylin.list /etc/apt/sources.list.d/
-debian/master_preferences /usr/lib/chromium-browser/
-debian/pkg_depends /usr/share/language-selector/data/
-debian/Z99-zip-gbk.sh /etc/profile.d/
-icons/UbuntuLogo.png /usr/share/unity-control-center/ui/
-icons/ubuntu_installed.png /usr/share/ubiquity/pixmaps
+debian/ubuntukylin.list etc/apt/sources.list.d/
+debian/master_preferences usr/lib/chromium-browser/
+debian/pkg_depends usr/share/language-selector/data/
+debian/Z99-zip-gbk.sh etc/profile.d/
+icons/UbuntuLogo.png usr/share/unity-control-center/ui/
+icons/ubuntu_installed.png usr/share/ubiquity/pixmaps
 debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-settings/
 debian/firefox/ubuntukylin-browser-defaults.properties usr/share/ubuntukylin-default-settings/
+debian/apport/ubuntukylin etc/apport/native-origins.d/
