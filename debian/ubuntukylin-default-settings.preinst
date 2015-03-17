@@ -6,8 +6,6 @@ files="
 usr/share/unity-control-center/ui/UbuntuLogo.png
 usr/share/ubiquity/pixmaps/ubuntu_installed.png
 usr/share/language-selector/data/pkg_depends
-usr/share/unity-control-center/searchingthedashlegalnotice.html
-usr/share/unity/icons/searchingthedashlegalnotice.html
 "
 
 if [ "$1" = install -o "$1" = upgrade ]; then
