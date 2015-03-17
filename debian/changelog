@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.3.5) vivid; urgency=medium
+
+  * Apply zip GBK hack only when LANGUAGE is zh_CN
+
+ -- Aron Xu <happyaron@ubuntu.com>  Sat, 07 Feb 2015 12:25:19 +0800
+
 ubuntukylin-default-settings (1.3.4) vivid; urgency=low
 
   * Turn LIM on by default and always show menu (LP: #1412297)
