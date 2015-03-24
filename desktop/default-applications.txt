@@ -18,6 +18,8 @@ application/x-extension-m4a smplayer
 application/x-extension-mp4 smplayer
 application/x-matroska smplayer
 application/x-shockwave-flash smplayer
+application/x-deb ubuntu-kylin-software-center
+application/x-debian-package ubuntu-kylin-software-center
 audio/3gpp smplayer
 audio/ac3 smplayer
 audio/AMR smplayer

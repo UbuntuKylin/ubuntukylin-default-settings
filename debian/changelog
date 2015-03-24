@@ -1,4 +1,4 @@
-ubuntukylin-default-settings (1.3.6) vivid; urgency=medium
+ubuntukylin-default-settings (1.3.7) vivid; urgency=medium
 
   * Install native origin configuration for apport (LP: #1419061)
 
