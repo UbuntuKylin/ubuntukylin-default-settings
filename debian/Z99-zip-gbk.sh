@@ -1,4 +1,6 @@
-if [ "`echo $LANGUAGE | grep zh_CN`" != "" ]; then
+case $LANGUAGE in
+  zh_CN*)
     export UNZIP="-O GBK"
     export ZIPINFO="-O GBK"
-fi
+    ;;
+esac
