@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.3.11) wily; urgency=medium
+
+  * fix zip file display of garbage characters by a better way (LP: #1462848 )
+
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Mon, 28 Sep 2015 15:20:37 +0800
+
 ubuntukylin-default-settings (1.3.10) wily; urgency=medium
 
   * fix zip file display of garbage characters (LP: #1462848 )
