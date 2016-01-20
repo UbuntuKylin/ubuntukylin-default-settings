@@ -1,3 +1,10 @@
+ubuntukylin-default-settings (1.3.12) xenial; urgency=medium
+
+  * Change the Version Number for UK16.04 in the page of "About This Computer (LP: #1530332 )
+  * update override file about com.canonical.Unity.Lenses
+
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Wed, 20 Jan 2016 16:31:35 +0800
+
 ubuntukylin-default-settings (1.3.11) wily; urgency=medium
 
   * fix zip file display of garbage characters by a better way (LP: #1462848 )
