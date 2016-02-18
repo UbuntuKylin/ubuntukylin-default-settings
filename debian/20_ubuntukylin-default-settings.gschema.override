@@ -21,6 +21,9 @@ remote-content-search="all"
 desktop-type="UbuntuKylin"
 
 [com.canonical.Unity.Launcher]
+launcher-position="Bottom"
+
+[com.canonical.Unity.Launcher]
 favorites=['application://ubiquity.desktop', 'application://nautilus.desktop', 'application://firefox.desktop', 'application://chromium-browser.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://ubuntu-kylin-software-center.desktop', 'application://youker-assistant.desktop', 'application://gnome-terminal.desktop', 'application://gnome-control-center.desktop', 'unity://desktop-icon', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
 
 [com.canonical.Unity]
