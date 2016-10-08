@@ -6,7 +6,8 @@ debian/master_preferences usr/lib/chromium-browser/
 debian/pkg_depends usr/share/language-selector/data/
 debian/Z99-zip-gbk.sh etc/profile.d/
 icons/UbuntuLogo.png usr/share/unity-control-center/ui/
-icons/ubuntu_installed.png usr/share/ubiquity/pixmaps
+icons/ubuntu_installed.png usr/share/ubiquity/pixmaps/
+icons/kylin-greeter-background.png usr/share/kylin-greeter/
 debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-settings/
 debian/firefox/ubuntukylin-browser-defaults.properties usr/share/ubuntukylin-default-settings/
 debian/apport/ubuntukylin etc/apport/native-origins.d/

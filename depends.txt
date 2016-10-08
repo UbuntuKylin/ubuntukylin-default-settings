@@ -14,3 +14,4 @@
 #
 # Example:
 # manpages-de
+ubuntu-kylin-wizard
