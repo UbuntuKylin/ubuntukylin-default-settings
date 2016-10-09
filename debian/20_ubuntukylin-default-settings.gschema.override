@@ -26,6 +26,3 @@ desktop-type="UbuntuKylin"
 
 [org.compiz.unityshell]
 launcher-minimize-window=true
-
-[com.kylin.kylin-greeter]
-background="/usr/share/kylin-greeter/kylin-greeter-background.png"

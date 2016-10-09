@@ -1,6 +1,6 @@
 ubuntukylin-default-settings (1.3.15) yakkety; urgency=medium
 
-  * add kylin-greeter-background.png and modify override file for yakkety version
+  * update UbuntuLogo.png and modify override for yakkety version
 
  -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Sat, 08 Oct 2016 17:06:49 +0800
 
