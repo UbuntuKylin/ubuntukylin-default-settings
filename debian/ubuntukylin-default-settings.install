@@ -10,3 +10,5 @@ icons/ubuntu_installed.png usr/share/ubiquity/pixmaps/
 debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-settings/
 debian/firefox/ubuntukylin-browser-defaults.properties usr/share/ubuntukylin-default-settings/
 debian/apport/ubuntukylin etc/apport/native-origins.d/
+debian/mate-panel.desktop usr/share/ukui/applications/
+debian/ukui.layout usr/share/mate-panel/layouts/
