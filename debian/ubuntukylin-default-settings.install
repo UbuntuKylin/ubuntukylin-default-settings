@@ -13,3 +13,6 @@ debian/apport/ubuntukylin etc/apport/native-origins.d/
 debian/mate-panel.desktop usr/share/ukui/applications/
 debian/ukui.layout usr/share/mate-panel/layouts/
 debian/mate-settings-daemon.desktop usr/share/ukui/autostart/
+debian/mate-power-manager.desktop usr/share/ukui/autostart/
+debian/mate-volume-control-applet.desktop usr/share/ukui/autostart/
+debian/polkit-mate-authentication-agent-1.desktop usr/share/ukui/autostart/

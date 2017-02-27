@@ -27,4 +27,8 @@ desktop-type="UbuntuKylin"
 [org.compiz.unityshell]
 launcher-minimize-window=true
 
+[org.mate.interface]
+gtk-theme='ukui-theme'
 
+[org.mate.Marco.general]
+theme='ukui-theme'
