@@ -32,3 +32,6 @@ gtk-theme='ukui-theme'
 
 [org.mate.Marco.general]
 theme='ukui-theme'
+
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.png'
