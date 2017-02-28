@@ -29,6 +29,7 @@ launcher-minimize-window=true
 
 [org.mate.interface]
 gtk-theme='ukui-theme'
+icon-theme='ukui-icon-theme'
 
 [org.mate.Marco.general]
 theme='ukui-theme'
