@@ -35,4 +35,7 @@ icon-theme='ukui-icon-theme'
 theme='ukui-theme'
 
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.png'
+picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
+
+[org.mate.Marco.global-keybindings]
+run-command-terminal='<Control><Alt>t'
