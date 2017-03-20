@@ -39,3 +39,6 @@ picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 
 [org.mate.Marco.global-keybindings]
 run-command-terminal='<Control><Alt>t'
+
+[org.mate.applications-terminal]
+exec='gnome-terminal'
