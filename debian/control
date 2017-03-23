@@ -9,7 +9,7 @@ Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-defau
 
 Package: ubuntukylin-default-settings
 Architecture: all
-Depends: ${misc:Depends}, ${ubuntudefaults:Depends}
+Depends: ${misc:Depends}, ${ubuntudefaults:Depends},ubuntukylin-keyring
 Recommends: ${ubuntudefaults:Recommends}
 Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings

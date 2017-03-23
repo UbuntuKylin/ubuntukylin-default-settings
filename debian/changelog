@@ -1,6 +1,8 @@
 ubuntukylin-default-settings (1.3.18) zesty; urgency=medium
 
   * add three desktop file and modify override file.
+  * add lightdm conf file.
+  * update ubuntukylin.list for zesty version.
 
  -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Mon, 27 Feb 2017 15:55:59 +0800
 

@@ -11,6 +11,7 @@ debian/firefox/ubuntukylin-browser-defaults.js usr/share/ubuntukylin-default-set
 debian/firefox/ubuntukylin-browser-defaults.properties usr/share/ubuntukylin-default-settings/
 debian/apport/ubuntukylin etc/apport/native-origins.d/
 debian/mate-panel.desktop usr/share/ukui/applications/
+debian/60-ubuntukylin.conf usr/share/lightdm/lightdm.conf.d/
 debian/ukui.layout usr/share/mate-panel/layouts/
 debian/mate-settings-daemon.desktop usr/share/ukui/autostart/
 debian/mate-power-manager.desktop usr/share/ukui/autostart/
