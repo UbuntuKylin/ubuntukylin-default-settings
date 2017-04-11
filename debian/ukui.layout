@@ -12,7 +12,7 @@ locked=true
 
 [Object home]
 object-type=launcher
-launcher-location=peony-home.desktop
+launcher-location=peony-browser.desktop
 toplevel-id=bottom
 position=51
 locked=true
