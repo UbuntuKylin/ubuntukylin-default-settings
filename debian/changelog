@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.3.19) zesty; urgency=medium
+
+  * add gnome-terminal.desktop and update override file
+
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Tue, 11 Apr 2017 11:01:23 +0800
+
 ubuntukylin-default-settings (1.3.18) zesty; urgency=medium
 
   * add three desktop file and modify override file.
