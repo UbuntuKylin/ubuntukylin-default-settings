@@ -16,7 +16,7 @@ theme="ubuntukylin-theme"
 remote-content-search="all"
 
 [com.canonical.Unity.Launcher]
-favorites=['application://ubiquity.desktop', 'application://nautilus.desktop', 'application://firefox.desktop', 'application://chromium-browser.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://ubuntu-kylin-software-center.desktop', 'application://youker-assistant.desktop', 'application://gnome-terminal.desktop', 'application://unity-control-center.desktop', 'unity://desktop-icon', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+favorites=['application://ubiquity.desktop', 'application://nautilus.desktop', 'application://firefox.desktop', 'application://chromium-browser.desktop', 'application://libreoffice-writer.desktop', 'application://libreoffice-calc.desktop', 'application://libreoffice-impress.desktop', 'application://ubuntu-kylin-software-center.desktop', 'application://youker-assistant.desktop', 'application://mate-terminal.desktop', 'application://unity-control-center.desktop', 'unity://desktop-icon', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
 launcher-position="Bottom"
 
 [com.canonical.Unity]
@@ -41,7 +41,7 @@ picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 run-command-terminal='<Control><Alt>t'
 
 [org.mate.Marco.keybinding-commands]
-command-screenshot='gnome-screenshot'
+command-screenshot='mate-screenshot'
 
 [org.mate.applications-terminal]
-exec='gnome-terminal'
+exec='mate-terminal'

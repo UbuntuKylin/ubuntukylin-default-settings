@@ -16,5 +16,4 @@ debian/ukui.layout usr/share/mate-panel/layouts/
 debian/mate-settings-daemon.desktop usr/share/ukui/autostart/
 debian/mate-power-manager.desktop usr/share/ukui/autostart/
 debian/mate-volume-control-applet.desktop usr/share/ukui/autostart/
-debian/gnome-terminal.desktop usr/share/ukui/applications/
 debian/polkit-mate-authentication-agent-1.desktop usr/share/ukui/autostart/
