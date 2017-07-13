@@ -45,3 +45,14 @@ command-screenshot='mate-screenshot'
 
 [org.mate.applications-terminal]
 exec='mate-terminal'
+
+[org.onboard]
+layout='Compact'
+theme='Nightshade'
+key-label-font='Ubuntu'
+key-label-overrides=['RWIN::super-group', 'LWIN::super-group']
+xembed-onboard=true
+
+[org.onboard.window]
+docking-enabled=true
+force-to-top=true
