@@ -9,17 +9,5 @@ if [ "$1" = configure ]; then
 	md5sum ${FILE_PATH}/*.list 2>/dev/null | grep -v ${FILE_NAME} | grep ${FILE_MD5SUM} | awk '{print $2}' | xargs rm -f
 fi
 
-files="
-/usr/share/ukui/autostart/polkit-mate-authentication-agent-1.desktop
-"
-
-arch=`uname -m`
-
-if [ "$arch" = i386 -o "$arch" = i686 ]; then
-        for item in $files; do
-                sed -i "/Exec/s/x86_64/i386/g" $item
-        done
-fi
-
 #DEBHELPER#
 

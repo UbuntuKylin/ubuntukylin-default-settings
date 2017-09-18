@@ -3,14 +3,13 @@ Section: metapackages
 Priority: optional
 Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
 Build-Depends: debhelper (>= 7.0.50~), ubuntu-defaults-builder
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Vcs-Bzr: https://code.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 
 Package: ubuntukylin-default-settings
 Architecture: all
-Depends: ${misc:Depends}, ${ubuntudefaults:Depends},ubuntukylin-keyring
-Recommends: ${ubuntudefaults:Recommends}
+Depends: ${misc:Depends}, ubuntukylin-keyring
 Provides: ubuntu-default-settings
 Conflicts: ubuntu-default-settings
 Description: Default settings for the Ubuntu Kylin desktop
