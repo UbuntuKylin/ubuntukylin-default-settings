@@ -1,3 +1,13 @@
+ubuntukylin-default-settings (1.4.1) artful; urgency=medium
+
+  * Remove unused desktop file.
+  * Set firefox homepage.
+  * Remove depends.txt, recommends.txt, unity/ and icons/UbuntuLogo.png.
+  * Update ubuntukylin.list.
+  * Update compat and control file.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 18 Sep 2017 17:20:35 +0800
+
 ubuntukylin-default-settings (1.4.0) artful; urgency=medium
 
   * update override file and remove debian/gnome-terminal.desktop
