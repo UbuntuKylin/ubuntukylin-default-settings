@@ -1,3 +1,21 @@
+ubuntukylin-default-settings (1.4.2) artful; urgency=medium
+
+  * Remove unused desktop file.
+  * Set firefox homepage.
+  * Remove depends.txt, recommends.txt, unity/ and icons/UbuntuLogo.png.
+  * Update ubuntukylin.list.
+  * Update compat and control file.
+  * Remove the master_preferences file. (LP: #1717761)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 19 Sep 2017 14:55:21 +0800
+
+ubuntukylin-default-settings (1.4.1) artful; urgency=medium
+  * Update ukui.layout file
+  * Replace gnome-terminal with mate-terminal
+  * Include Onboard overrides
+
+ -- Aron Xu <happyaron@ubuntu.com> Fri, 14 Jul 2017 15:10:00 +0900
+
 ubuntukylin-default-settings (1.4.0) artful; urgency=medium
 
   * update override file and remove debian/gnome-terminal.desktop
