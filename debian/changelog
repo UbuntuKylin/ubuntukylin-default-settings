@@ -14,7 +14,7 @@ ubuntukylin-default-settings (1.4.1) artful; urgency=medium
   * Replace gnome-terminal with mate-terminal
   * Include Onboard overrides
 
- -- Aron Xu <happyaron@ubuntu.com> Fri, 14 Jul 2017 15:10:00 +0900
+ -- Aron Xu <happyaron@ubuntu.com>  Fri, 14 Jul 2017 15:10:00 +0900
 
 ubuntukylin-default-settings (1.4.0) artful; urgency=medium
 
