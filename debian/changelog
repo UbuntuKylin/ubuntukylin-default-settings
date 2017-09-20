@@ -7,7 +7,7 @@ ubuntukylin-default-settings (1.4.2) artful; urgency=medium
   * Update compat and control file.
   * Remove the master_preferences file. (LP: #1717761)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 19 Sep 2017 14:55:21 +0800
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Tue, 19 Sep 2017 14:55:21 +0800
 
 ubuntukylin-default-settings (1.4.1) artful; urgency=medium
   * Update ukui.layout file
