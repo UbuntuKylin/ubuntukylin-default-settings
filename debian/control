@@ -2,8 +2,8 @@ Source: ubuntukylin-default-settings
 Section: metapackages
 Priority: optional
 Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
-Build-Depends: debhelper (>= 7.0.50~), ubuntu-defaults-builder
-Standards-Version: 4.0.0
+Build-Depends: debhelper (>= 10.3~), ubuntu-defaults-builder
+Standards-Version: 4.1.3
 Vcs-Bzr: https://code.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntukylin-members/ubuntukylin-default-settings/trunk
 
