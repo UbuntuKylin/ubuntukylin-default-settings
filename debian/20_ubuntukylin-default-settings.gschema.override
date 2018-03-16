@@ -1,24 +1,18 @@
-[org.gnome.desktop.wm.preferences]
-theme="ubuntukylin-theme"
-
 [org.mate.interface]
 gtk-theme='ukui-theme'
 icon-theme='ukui-icon-theme'
 
-[org.mate.Marco.general]
-theme='ukui-theme'
-
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 
-[org.mate.Marco.global-keybindings]
-run-command-terminal='<Control><Alt>t'
+[org.gnome.desktop.wm.preferences]
+mouse-button-modifier='<Alt>'
+theme='ukui-theme'
+titlebar-font='Ubuntu Medium 11'
 
-[org.mate.Marco.keybinding-commands]
-command-screenshot='gnome-screenshot'
-
-[org.mate.applications-terminal]
-exec='mate-terminal'
+[org.gnome.desktop.wm.keybindings]
+show-desktop=['<Control><Alt>d','<Super>d']
+minimize=['<Alt>F9']
 
 [org.onboard]
 layout='Compact'
