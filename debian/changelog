@@ -5,6 +5,7 @@ ubuntukylin-default-settings (1.4.4) bionic; urgency=medium
   * Update the default homepage.
   * Use the new method to set firefox default homepage.
   * Update the standards version and compat level.
+  * Update the gsettings to fit ukwm.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Mar 2018 15:57:32 +0800
 
