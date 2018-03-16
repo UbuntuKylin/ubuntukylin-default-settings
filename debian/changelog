@@ -1,11 +1,12 @@
 ubuntukylin-default-settings (1.4.4) bionic; urgency=medium
 
-  * Remove ukui.layout.
+  * Remove ukui.layout, googlemail.desktop.example.
+  * Remove the gsettings about unity and nautilus.
   * Update the default homepage.
   * Use the new method to set firefox default homepage.
   * Update the standards version and compat level.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 13 Mar 2018 11:06:30 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Mar 2018 15:57:32 +0800
 
 ubuntukylin-default-settings (1.4.3) bionic; urgency=medium
 
