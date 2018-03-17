@@ -9,6 +9,7 @@ picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 mouse-button-modifier='<Alt>'
 theme='ukui-theme'
 titlebar-font='Ubuntu Medium 11'
+button-layout=':minimize,maximize,close'
 
 [org.gnome.desktop.wm.keybindings]
 show-desktop=['<Control><Alt>d','<Super>d']
