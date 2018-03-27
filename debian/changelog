@@ -4,10 +4,11 @@ ubuntukylin-default-settings (1.4.4) bionic; urgency=medium
   * Remove the gsettings about unity and nautilus.
   * Update the default homepage.
   * Use the new method to set firefox default homepage.
-  * Update the standards version and compat level.
+  * Bump standards version to 4.1.3, compat level to 11.
   * Update the gsettings to fit ukwm.
+  * Set gtk-theme to ukui-blue.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Mar 2018 15:57:32 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 27 Mar 2018 11:08:51 +0800
 
 ubuntukylin-default-settings (1.4.3) bionic; urgency=medium
 

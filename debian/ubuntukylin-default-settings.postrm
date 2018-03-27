@@ -6,6 +6,8 @@ files="
 usr/share/ubiquity/pixmaps/ubuntu_installed.png
 usr/share/language-selector/data/pkg_depends
 "
+DISTRIBUTION_FILE=/usr/lib/firefox/distribution/distribution.ini
+DISTRIBUTION_UBUNTU=/usr/lib/firefox/distribution/distribution.ini.ubuntu-defaults
 
 if [ "$1" = remove -o "$1" = purge ]; then
 	for item in $files; do
@@ -13,8 +15,10 @@ if [ "$1" = remove -o "$1" = purge ]; then
 	done
         sed -i "/NAME/s/Ubuntu Kylin/Ubuntu/g" /etc/os-release
         rm -f /usr/share/language-support/incomplete-language-support-gnome.note
+        if [ -e $DISTRIBUTION_UBUNTU ]; then
+            mv $DISTRIBUTION_UBUNTU $DISTRIBUTION_FILE
+        fi
 fi
 
-mv /usr/lib/firefox/distribution/distribution.ini.ubuntu-defaults /usr/lib/firefox/distribution/distribution.ini
 #DEBHELPER#
 

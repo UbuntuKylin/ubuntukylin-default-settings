@@ -8,15 +8,13 @@ usr/share/language-selector/data/pkg_depends
 "
 
 if [ "$1" = install -o "$1" = upgrade ]; then
-	for item in $files; do
-		dpkg-divert --package $package --rename --divert "/$item"".orig-brand" --add "/$item"
-	done
-        sed -i 's/\(NAME="Ubuntu\)"/\1 Kylin"/' /etc/os-release
-        sed -i 's/\(PRETTY_NAME="Ubuntu\) 1/\1 Kylin 1/' /etc/os-release
-        rm -f /usr/share/language-support/incomplete-language-support-gnome.note
+    for item in $files; do
+        dpkg-divert --package $package --rename --divert "/$item"".orig-brand" --add "/$item"
+    done
+    sed -i 's/\(NAME="Ubuntu\)"/\1 Kylin"/' /etc/os-release
+    sed -i 's/\(PRETTY_NAME="Ubuntu\) 1/\1 Kylin 1/' /etc/os-release
+    rm -f /usr/share/language-support/incomplete-language-support-gnome.note
 fi
-
-mv /usr/lib/firefox/distribution/distribution.ini /usr/lib/firefox/distribution/distributon.ini.ubuntu-defaults
 
 #DEBHELPER#
 

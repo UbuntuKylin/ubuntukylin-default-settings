@@ -4,9 +4,15 @@ set -e
 FILE_MD5SUM=47d621d5a840d525a1663c12b2ab9e50
 FILE_PATH=/etc/apt/sources.list.d
 FILE_NAME=ubuntukylin.list
+DISTRIBUTION_FILE=/usr/lib/firefox/distribution/distribution.ini
+DISTRIBUTION_UBUNTU=/usr/lib/firefox/distribution/distribution.ini.ubuntu-defaults
 
 if [ "$1" = configure ]; then
 	md5sum ${FILE_PATH}/*.list 2>/dev/null | grep -v ${FILE_NAME} | grep ${FILE_MD5SUM} | awk '{print $2}' | xargs rm -f
+fi
+
+if [ -e $DISTRIBUTION_FILE ]; then
+    mv $DISTRIBUTION_FILE $DISTRIBUTION_UBUNTU
 fi
 
 #DEBHELPER#

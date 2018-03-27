@@ -1,5 +1,5 @@
 [org.mate.interface]
-gtk-theme='ukui-theme'
+gtk-theme='ukui-blue'
 icon-theme='ukui-icon-theme'
 
 [org.mate.background]
@@ -7,7 +7,7 @@ picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
-theme='ukui-theme'
+theme='ukui-blue'
 titlebar-font='Ubuntu Medium 11'
 button-layout=':minimize,maximize,close'
 
