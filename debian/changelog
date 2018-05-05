@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.4.5) bionic; urgency=medium
+
+  * Set firefox for native language.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 02 May 2018 10:24:15 +0800
+
 ubuntukylin-default-settings (1.4.4) bionic; urgency=medium
 
   * Remove ukui.layout, googlemail.desktop.example.
