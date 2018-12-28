@@ -5,4 +5,3 @@ debian/Z99-zip-gbk.sh etc/profile.d/
 icons/ubuntu_installed.png usr/share/ubiquity/pixmaps/
 debian/firefox/ usr/lib/
 debian/apport/ubuntukylin etc/apport/native-origins.d/
-debian/60-ubuntukylin.conf usr/share/lightdm/lightdm.conf.d/
