@@ -1,3 +1,15 @@
+ubuntukylin-default-settings (1.4.6) disco; urgency=medium
+
+  * Remove useless files.
+  * Add ubuntukylin-mimeapps.list.
+  * Set default theme to gtk-black.
+  * Set edge-tilling to true.
+  * Debian:
+    - Bump standards-version to 4.3.0.
+    - Bump compat level to 12.
+
+ -- ShuiLu Pi <shuilupi@ubuntukylin.com>  Fri, 22 Feb 2019 08:25:12 +0800
+
 ubuntukylin-default-settings (1.4.5) bionic; urgency=medium
 
   * Set firefox for native language.
