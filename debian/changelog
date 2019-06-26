@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (1.4.7) eoan; urgency=medium
+
+  * Remove pkg_depends.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 26 Jun 2019 11:07:17 +0800
+
 ubuntukylin-default-settings (1.4.6) disco; urgency=medium
 
   * Remove useless files.

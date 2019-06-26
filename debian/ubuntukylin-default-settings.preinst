@@ -4,7 +4,6 @@ package=ubuntukylin-default-settings
 
 files="
 usr/share/ubiquity/pixmaps/ubuntu_installed.png
-usr/share/language-selector/data/pkg_depends
 "
 
 if [ "$1" = install -o "$1" = upgrade ]; then

@@ -4,7 +4,6 @@ package=ubuntukylin-default-settings
 
 files="
 usr/share/ubiquity/pixmaps/ubuntu_installed.png
-usr/share/language-selector/data/pkg_depends
 "
 DISTRIBUTION_FILE=/usr/lib/firefox/distribution/distribution.ini
 DISTRIBUTION_UBUNTU=/usr/lib/firefox/distribution/distribution.ini.ubuntu-defaults
