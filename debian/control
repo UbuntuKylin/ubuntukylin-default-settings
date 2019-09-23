@@ -2,8 +2,8 @@ Source: ubuntukylin-default-settings
 Section: metapackages
 Priority: optional
 Maintainer: Ubuntu Kylin Team <ubuntukylin-members@lists.launchpad.net>
-Build-Depends: debhelper (>= 12), ubuntu-defaults-builder
-Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12)
+Standards-Version: 4.4.0
 Vcs-Git: https://github.com/UbuntuKylin/ubuntukylin-default-settings.git
 Vcs-Browser: https://github.com/UbuntuKylin/ubuntukylin-default-settings
 
