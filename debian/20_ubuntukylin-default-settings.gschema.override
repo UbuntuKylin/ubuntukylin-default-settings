@@ -4,7 +4,7 @@ picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
 theme='ukui-black'
-titlebar-font='Ubuntu Medium 11'
+titlebar-font='Noto Sans Mono CJK SC 10'
 button-layout=':minimize,maximize,close'
 
 [org.gnome.desktop.wm.keybindings]
@@ -24,3 +24,11 @@ force-to-top=true
 
 [org.ukui.ukwm]
 edge-tiling=true
+
+[org.mate.interface]
+document-font-name='Noto Sans Mono CJK SC 10'
+font-name='Noto Sans Mono CJK SC 10'
+monospace-font-name='Noto Sans Mono CJK SC 10'
+
+[org.ukui.peony.desktop]
+font='Noto Sans Mono CJK SC 10'
