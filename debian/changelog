@@ -1,11 +1,10 @@
 ubuntukylin-default-settings (20.04.0) focal; urgency=medium
 
-  * Set the default fonts to 'Noto Sans Mono CJK SC 10'.
+  * Set the default font to 'Noto Sans CJK SC 10'.
   * debian/control:
     - Bump standards-version to 4.5.0.
     - Switch the debhelper build dependency to debhelper-compat 12.
     - Remove debian/compat.
-
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 20 Mar 2020 15:01:05 +0800
 
