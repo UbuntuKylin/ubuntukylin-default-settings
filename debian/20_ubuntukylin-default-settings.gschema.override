@@ -3,7 +3,7 @@ picture-filename='/usr/share/backgrounds/warty-final-ubuntukylin.jpg'
 
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
-theme='ukui-black'
+theme='ukui-white'
 titlebar-font='Noto Sans CJK SC 10'
 button-layout=':minimize,maximize,close'
 
@@ -14,7 +14,7 @@ minimize=['<Alt>F9']
 [org.onboard]
 layout='Compact'
 theme='Nightshade'
-key-label-font='Ubuntu'
+key-label-font='Noto Sans CJK SC'
 key-label-overrides=['RWIN::super-group', 'LWIN::super-group']
 xembed-onboard=true
 
