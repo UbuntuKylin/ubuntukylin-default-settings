@@ -1,13 +1,13 @@
 ubuntukylin-default-settings (20.04.0) focal; urgency=medium
 
-  * Set the default font to 'Noto Sans CJK SC 10'.
+  * Set the default font to 'Noto Sans CJK SC 14'.
   * Set the default theme to 'ukui-white'.
   * debian/control:
     - Bump standards-version to 4.5.0.
     - Switch the debhelper build dependency to debhelper-compat 12.
     - Remove debian/compat.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 20 Mar 2020 15:01:05 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 27 Mar 2020 21:35:42 +0800
 
 ubuntukylin-default-settings (19.10.0) eoan; urgency=medium
 
