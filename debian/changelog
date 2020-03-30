@@ -1,3 +1,9 @@
+ubuntukylin-default-settings (20.04.1) focal; urgency=medium
+
+  * Change the default font size from 14 to 11.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 30 Mar 2020 15:02:12 +0800
+
 ubuntukylin-default-settings (20.04.0) focal; urgency=medium
 
   * Set the default font to 'Noto Sans CJK SC 14'.
